@@ -1,0 +1,9 @@
+#import <Restaurants-Assistant/SiriRestaurantsOpenHoursCellAccessibility_super.h>
+#import <Restaurants-Assistant/SiriRestaurantsOpenHoursCellAccessibility.h>
+#import <Restaurants-Assistant/SiriRestaurantsDetailViewControllerAccessibility_super.h>
+#import <Restaurants-Assistant/SiriRestaurantsDetailViewControllerAccessibility.h>
+#import <Restaurants-Assistant/SiriRestaurantsDetailDescriptionCellAccessibility_super.h>
+#import <Restaurants-Assistant/SiriRestaurantsDetailDescriptionCellAccessibility.h>
+#import <Restaurants-Assistant/AXRestaurantsAssistantGlue.h>
+#import <Restaurants-Assistant/SiriRestaurantsListItemCellAccessibility_super.h>
+#import <Restaurants-Assistant/SiriRestaurantsListItemCellAccessibility.h>

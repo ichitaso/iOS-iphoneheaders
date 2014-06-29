@@ -1,0 +1,15 @@
+#import <Podcasts/POPodcastStation.h>
+#import <Podcasts/POPlayPodcasts.h>
+#import <Podcasts/POSetPlaybackSpeed.h>
+#import <Podcasts/PODecreasePlaybackSpeed.h>
+#import <Podcasts/POPodcastModelObject.h>
+#import <Podcasts/POUtilities.h>
+#import <Podcasts/POPodcastRevision.h>
+#import <Podcasts/PODataSource.h>
+#import <Podcasts/POPlayPodcastCollection.h>
+#import <Podcasts/POBasicPodcastAppSearchCompleted.h>
+#import <Podcasts/POPodcastSyncHandler.h>
+#import <Podcasts/POPlayPodcastStation.h>
+#import <Podcasts/POIncreasePlaybackSpeed.h>
+#import <Podcasts/POBasicPodcastAppSearch.h>
+#import <Podcasts/POPodcastCollection.h>

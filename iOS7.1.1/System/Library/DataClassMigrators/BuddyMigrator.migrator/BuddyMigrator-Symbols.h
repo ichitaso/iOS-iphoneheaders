@@ -1,0 +1,17 @@
+radr://5614542
+_OBJC_CLASS_$_BuddyDataMigrator
+_OBJC_METACLASS_$_BuddyDataMigrator
+_CFPreferencesAppSynchronize
+_CFPreferencesSetAppValue
+_MGGetBoolAnswer
+_OBJC_CLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_NSObject
+_PSPurpleBuddyNotBackedUpIdentifier
+___CFConstantStringClassReference
+__objc_empty_cache
+__objc_empty_vtable
+_kCFBooleanTrue
+_kSetupShouldRunMesaMiniBuddy
+_objc_msgSend
+dyld_stub_binder

@@ -1,0 +1,13 @@
+_OBJC_CLASS_$_TIKeyboardInputManager_emoji
+_OBJC_METACLASS_$_TIKeyboardInputManager_emoji
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_TIKeyboardInputManagerBase
+_OBJC_CLASS_$_TIKeyboardOperationInsertText
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_TIKeyboardInputManagerBase
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__objc_empty_vtable
+_objc_msgSend
+dyld_stub_binder

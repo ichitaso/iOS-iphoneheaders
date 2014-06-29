@@ -1,0 +1,42 @@
+/SourceCache/CookieDataMigrator/CFNetwork-672.1.14/Cookies/
+CookieDataMigrator.m
+/private/var/tmp/CookieDataMigrator/CookieDataMigrator-672.1.14~2/CFNetwork.build/CookieDataMigrator.build/Objects-normal/arm64/CookieDataMigrator.o
+-[CookieDataMigrator dataClassName]
+-[CookieDataMigrator performMigration]
+_OBJC_METACLASS_$_CookieDataMigrator
+_OBJC_CLASS_$_CookieDataMigrator
+/private/var/tmp/CookieDataMigrator/CookieDataMigrator-672.1.14~2/CFNetwork.build/CookieDataMigrator.build/DerivedSources/
+CookieDataMigrator_vers.c
+/private/var/tmp/CookieDataMigrator/CookieDataMigrator-672.1.14~2/CFNetwork.build/CookieDataMigrator.build/Objects-normal/arm64/CookieDataMigrator_vers.o
+_CookieDataMigratorVersionString
+_CookieDataMigratorVersionNumber
+-[CookieDataMigrator dataClassName]
+-[CookieDataMigrator performMigration]
+_CookieDataMigratorVersionNumber
+_CookieDataMigratorVersionString
+_OBJC_CLASS_$_CookieDataMigrator
+_OBJC_METACLASS_$_CookieDataMigrator
+_CFArrayGetCount
+_CFArrayGetValueAtIndex
+_CFCopyHomeDirectoryURLForUser
+_CFHTTPCookieStorageCopyCookies
+_CFHTTPCookieStorageCreateFromFile
+_CFHTTPCookieStorageSetCookie
+_CFHTTPCookieStorageSyncStorageNow
+_CFRelease
+_CFURLCreateWithFileSystemPathRelativeToBase
+_CFURLGetFileSystemRepresentation
+_OBJC_CLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_NSObject
+__CFHTTPCookieStorageGetDefault
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__objc_empty_vtable
+_bzero
+_kCFAllocatorDefault
+_stat
+_unlink
+dyld_stub_binder

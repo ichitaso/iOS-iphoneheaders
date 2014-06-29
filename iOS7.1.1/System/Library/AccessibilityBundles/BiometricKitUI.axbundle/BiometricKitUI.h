@@ -1,0 +1,11 @@
+#import <BiometricKitUI/BKUICurvesViewAccessibility_super.h>
+#import <BiometricKitUI/BKUICurvesViewAccessibility.h>
+#import <BiometricKitUI/Bio_UIImageViewAccessibility_super.h>
+#import <BiometricKitUI/Bio_UIImageViewAccessibility.h>
+#import <BiometricKitUI/AXBiometricKitUIGlue.h>
+#import <BiometricKitUI/Bio_UIButtonAccessibility_super.h>
+#import <BiometricKitUI/Bio_UIButtonAccessibility.h>
+#import <BiometricKitUI/BKUIRadarButtonAccessibility_super.h>
+#import <BiometricKitUI/BKUIRadarButtonAccessibility.h>
+#import <BiometricKitUI/BKUIFingerprintEnrollViewControllerAccessibility_super.h>
+#import <BiometricKitUI/BKUIFingerprintEnrollViewControllerAccessibility.h>

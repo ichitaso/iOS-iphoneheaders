@@ -1,0 +1,9 @@
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboMigrationAppDelegate.h>
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboMigrationInfoViewController.h>
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboLoginInfoViewController.h>
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboLoginInfoCell.h>
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboLoginInfoCellContentView.h>
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboLoginInfoFooter.h>
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboMigrationNavigationController.h>
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboMigrationAlertView.h>
+#import <TencentWeiboAccountMigrationDialog/SLTencentWeiboMigrationPasswordViewController.h>

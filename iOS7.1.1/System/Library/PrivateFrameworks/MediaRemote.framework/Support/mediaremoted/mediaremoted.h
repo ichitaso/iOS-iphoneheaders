@@ -1,0 +1,12 @@
+#import <mediaremoted/MRDRemoteControlServer.h>
+#import <mediaremoted/MRDRemoteControlBlacklistEntry.h>
+#import <mediaremoted/MRDBrowsableContentServer.h>
+#import <mediaremoted/MRDInitiatePlaybackMessage.h>
+#import <mediaremoted/MRDNowPlayingInfoServer.h>
+#import <mediaremoted/MRDNowPlayingInfoClient.h>
+#import <mediaremoted/MRDLocalNowPlayingInfoClient.h>
+#import <mediaremoted/MRDTouchRemoteNowPlayingInfoClient.h>
+#import <mediaremoted/MRDMediaRemoteServer.h>
+#import <mediaremoted/MRDMediaRemoteClient.h>
+#import <mediaremoted/MRDRunAssertion.h>
+#import <mediaremoted/MRWeakRef.h>

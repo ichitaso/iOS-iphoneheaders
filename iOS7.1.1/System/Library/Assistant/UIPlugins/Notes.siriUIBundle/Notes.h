@@ -1,0 +1,10 @@
+#import <Notes/NotesAssistantSnippetController.h>
+#import <Notes/NotesAssistantSnippetFactory.h>
+#import <Notes/NotesAssistantNoteProvider.h>
+#import <Notes/NotesAssistantNotesListViewCell.h>
+#import <Notes/NotesMetrics.h>
+#import <Notes/NotesAssistantSingleNoteViewCell.h>
+#import <Notes/NoteCell.h>
+#import <Notes/NoteCellContentView.h>
+#import <Notes/SelectedBackgroundView.h>
+#import <Notes/NotesUITableViewCell.h>
