@@ -1,0 +1,2 @@
+#import <HealthPrivacySettings/HKHealthPrivacySettingsSourceDetailController.h>
+#import <HealthPrivacySettings/HKHealthPrivacySettingsSourceListController.h>

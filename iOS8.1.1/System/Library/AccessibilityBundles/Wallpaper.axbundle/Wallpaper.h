@@ -1,0 +1,14 @@
+#import <Wallpaper/AXWallpaperGlue.h>
+#import <Wallpaper/__PLWallpaperAssetAccessibility_super.h>
+#import <Wallpaper/__WallpaperMagicTableViewCellAccessibility_super.h>
+#import <Wallpaper/WallpaperMagicTableViewCellAccessibility.h>
+#import <Wallpaper/__WallpaperPUPhotosGridCellAccessibility_super.h>
+#import <Wallpaper/WallpaperPUPhotosGridCellAccessibility.h>
+#import <Wallpaper/__WallpaperPreviewCellAccessibility_super.h>
+#import <Wallpaper/WallpaperPreviewCellAccessibility.h>
+#import <Wallpaper/__WallpaperMagicTableCategoryButtonAccessibility_super.h>
+#import <Wallpaper/WallpaperMagicTableCategoryButtonAccessibility.h>
+#import <Wallpaper/__WallpaperMagicGridViewControllerAccessibility_super.h>
+#import <Wallpaper/WallpaperMagicGridViewControllerAccessibility.h>
+#import <Wallpaper/__WallpaperMagicTableCategoryLabelAccessibility_super.h>
+#import <Wallpaper/WallpaperMagicTableCategoryLabelAccessibility.h>

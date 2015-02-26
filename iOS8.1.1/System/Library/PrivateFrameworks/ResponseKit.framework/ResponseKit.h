@@ -1,0 +1,14 @@
+#import <ResponseKit/RKSentenceClassifier_fr_FR.h>
+#import <ResponseKit/_RKResponse.h>
+#import <ResponseKit/RKResponseCollection.h>
+#import <ResponseKit/RKClassification.h>
+#import <ResponseKit/RKLexicalEntity.h>
+#import <ResponseKit/RKSentenceClassifier.h>
+#import <ResponseKit/RKSentenceClassifier_es_ES.h>
+#import <ResponseKit/RKSentenceClassifier_en_US.h>
+#import <ResponseKit/RKSynonymizer.h>
+#import <ResponseKit/RKMessageResponseManager.h>
+#import <ResponseKit/RKAssets.h>
+#import <ResponseKit/RKSentenceClassifier_it_IT.h>
+#import <ResponseKit/RKSentenceClassifier_de_DE.h>
+#import <ResponseKit/RKMessageClassifier.h>

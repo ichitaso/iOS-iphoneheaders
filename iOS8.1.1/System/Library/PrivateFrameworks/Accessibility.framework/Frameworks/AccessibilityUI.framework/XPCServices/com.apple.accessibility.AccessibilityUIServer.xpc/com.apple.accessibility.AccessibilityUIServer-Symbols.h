@@ -1,0 +1,39 @@
+-[AXUIApplication _expectedViewOrientation]
+-[AXUIApplication _run]
+___23-[AXUIApplication _run]_block_invoke
+-[AXUIApplication accessibilityLabel]
+-[AXUIApplication _accessibilityIsAccessibilityUIServer]
+__stopProgramTerm
+-[AXUIApplicationDelegate application:didFinishLaunchingWithOptions:]
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_CLASS_$_AXUIApplication
+_OBJC_CLASS_$_AXUIApplicationDelegate
+_OBJC_METACLASS_$_AXUIApplication
+_OBJC_METACLASS_$_AXUIApplicationDelegate
+__mh_execute_header
+_main
+_AXPerformBlockAsynchronouslyOnMainThread
+_AXProcessRequestMobileUserPrivileges
+_OBJC_CLASS_$_AXUIDisplayManager
+_OBJC_CLASS_$_AXUINSBundleOverride
+_OBJC_CLASS_$_AXUIServiceManager
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_UIResponder
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_UIApplication
+_OBJC_METACLASS_$_UIResponder
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+___UIAccessibilityCastAsSafeCategory
+__objc_empty_cache
+_abort
+_exit
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_msgSend
+_objc_msgSendSuper2
+_signal
+dyld_stub_binder

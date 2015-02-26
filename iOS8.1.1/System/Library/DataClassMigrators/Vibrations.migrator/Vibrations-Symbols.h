@@ -1,0 +1,11 @@
+radr://5614542
+_OBJC_CLASS_$_VibrationDataMigrator
+_OBJC_METACLASS_$_VibrationDataMigrator
+_OBJC_CLASS_$_DataClassMigrator
+_OBJC_CLASS_$_TLVibrationManager
+_OBJC_METACLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

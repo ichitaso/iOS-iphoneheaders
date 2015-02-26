@@ -1,0 +1,13 @@
+#import <MobileNotes/AXMobileNotesGlue.h>
+#import <MobileNotes/__NoteCellAccessibility_super.h>
+#import <MobileNotes/NoteCellAccessibility.h>
+#import <MobileNotes/__NoteContentLayerAccessibility_super.h>
+#import <MobileNotes/NoteContentLayerAccessibility.h>
+#import <MobileNotes/__MobileNotesUIButtonAccessibility_super.h>
+#import <MobileNotes/MobileNotesUIButtonAccessibility.h>
+#import <MobileNotes/__NotesDisplayControllerAccessibility_super.h>
+#import <MobileNotes/NotesDisplayControllerAccessibility.h>
+#import <MobileNotes/__NotesListControllerAccessibility_super.h>
+#import <MobileNotes/NotesListControllerAccessibility.h>
+#import <MobileNotes/__NoteTextViewAccessibility_super.h>
+#import <MobileNotes/NoteTextViewAccessibility.h>

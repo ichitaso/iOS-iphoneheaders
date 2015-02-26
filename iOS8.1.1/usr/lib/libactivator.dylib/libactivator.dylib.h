@@ -1,0 +1,9 @@
+#import <libactivator.dylib/LAEvent.h>
+#import <libactivator.dylib/LAActivator.h>
+#import <libactivator.dylib/LASettingsViewController.h>
+#import <libactivator.dylib/LARootSettingsController.h>
+#import <libactivator.dylib/LAModeSettingsController.h>
+#import <libactivator.dylib/LAEventSettingsController.h>
+#import <libactivator.dylib/LAListenerSettingsViewController.h>
+#import <libactivator.dylib/LAEventConfigurationViewController.h>
+#import <libactivator.dylib/LAListenerConfigurationViewController.h>

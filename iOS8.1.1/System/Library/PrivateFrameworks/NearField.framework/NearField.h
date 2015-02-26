@@ -1,0 +1,16 @@
+#import <NearField/NFHardwareControllerInfo.h>
+#import <NearField/NFHardwareSecureElementInfo.h>
+#import <NearField/NFHardwareBoosterInfo.h>
+#import <NearField/NFHardwareManager.h>
+#import <NearField/NFDaemonProxy.h>
+#import <NearField/NFCardEmulationUEA.h>
+#import <NearField/NFECommerceTransactionRequest.h>
+#import <NearField/NFEcommerceTransactionResponse.h>
+#import <NearField/NFTransactionStartEvent.h>
+#import <NearField/NFTransactionEndEvent.h>
+#import <NearField/NFCardManagerEventListener.h>
+#import <NearField/NFCardManagerInternal.h>
+#import <NearField/NFCard.h>
+#import <NearField/NFCardEmulation.h>
+#import <NearField/NFCardManager.h>
+#import <NearField/NFCardEmulationNFCD.h>
