@@ -1,0 +1,17 @@
+radr://5614542
+_OBJC_CLASS_$_PhotosAccountNotificationPlugin
+_OBJC_METACLASS_$_PhotosAccountNotificationPlugin
+_ACAccountTypeIdentifierAppleAccount
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_PLGatekeeperClient
+_OBJC_CLASS_$_PLPhotoLibrary
+_OBJC_METACLASS_$_NSObject
+__objc_empty_cache
+_kAccountDataclassCloudPhotos
+_kAccountDataclassMediaStream
+_kAccountDataclassSharedStreams
+_objc_msgSend
+_objc_release
+_objc_retain
+_objc_retainAutoreleasedReturnValue
+dyld_stub_binder

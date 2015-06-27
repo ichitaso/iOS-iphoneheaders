@@ -1,0 +1,1 @@
+#import <MadridAppleIDLoginPlugin/FTRegMadridServiceDelegate.h>

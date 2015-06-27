@@ -1,0 +1,3 @@
+#import <CommunicationsSetupUI/AXCommunicationsSetupUIGlue.h>
+#import <CommunicationsSetupUI/__CNFRegSignInControllerAccessibility_super.h>
+#import <CommunicationsSetupUI/CNFRegSignInControllerAccessibility.h>

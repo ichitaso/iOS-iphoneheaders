@@ -1,0 +1,9 @@
+#import <WebCore/__WAKScrollViewAccessibility_super.h>
+#import <WebCore/WAKScrollViewAccessibility.h>
+#import <WebCore/AXWebCoreGlue.h>
+#import <WebCore/AXLiveRegionNode.h>
+#import <WebCore/__UIKitWebAccessibilityObjectWrapper_super.h>
+#import <WebCore/AXWebThreadPreparer.h>
+#import <WebCore/UIKitWebAccessibilityObjectWrapper.h>
+#import <WebCore/__UIKitAccessibilityTextMarker_super.h>
+#import <WebCore/UIKitAccessibilityTextMarker.h>

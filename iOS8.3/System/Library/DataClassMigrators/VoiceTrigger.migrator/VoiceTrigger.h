@@ -1,0 +1,1 @@
+#import <VoiceTrigger/VoiceTriggerMigrator.h>

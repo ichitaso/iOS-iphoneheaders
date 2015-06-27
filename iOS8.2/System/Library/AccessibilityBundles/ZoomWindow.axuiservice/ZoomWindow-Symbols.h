@@ -1,0 +1,1704 @@
+-[ZWSlugTriangleView initWithTriangle:]
+-[ZWSlugTriangleView intrinsicContentSize]
+-[ZWSlugTriangleView layoutSubviews]
+-[ZWSlugTriangleView triangleLayer]
+-[ZWSlugTriangleView setTriangleLayer:]
+-[ZWSlugTriangleView triangle]
+-[ZWSlugTriangleView setTriangle:]
+-[ZWSlugTriangleView .cxx_destruct]
++[ZWCoalescedSettings sharedInstance]
+___37+[ZWCoalescedSettings sharedInstance]_block_invoke
+-[ZWCoalescedSettings zoomWindowFrame]
+-[ZWCoalescedSettings setZoomWindowFrame:]
+___42-[ZWCoalescedSettings setZoomWindowFrame:]_block_invoke
+-[ZWCoalescedSettings zoomFactor]
+-[ZWCoalescedSettings setZoomFactor:]
+___37-[ZWCoalescedSettings setZoomFactor:]_block_invoke
+-[ZWCoalescedSettings setZoomInStandby:]
+-[ZWCoalescedSettings zoomInStandby]
+-[ZWCoalescedSettings zoomPanOffset]
+-[ZWCoalescedSettings setZoomPanOffset:]
+___40-[ZWCoalescedSettings setZoomPanOffset:]_block_invoke
+-[ZWCoalescedSettings zoomSlugNormalizedPosition]
+-[ZWCoalescedSettings setZoomSlugNormalizedPosition:]
+___53-[ZWCoalescedSettings setZoomSlugNormalizedPosition:]_block_invoke
+-[ZWCoalescedSettings zoomLensFrameUpdateTimer]
+-[ZWCoalescedSettings setZoomLensFrameUpdateTimer:]
+-[ZWCoalescedSettings zoomFactorUpdateTimer]
+-[ZWCoalescedSettings setZoomFactorUpdateTimer:]
+-[ZWCoalescedSettings zoomPanOffsetUpdateTimer]
+-[ZWCoalescedSettings setZoomPanOffsetUpdateTimer:]
+-[ZWCoalescedSettings zoomSlugPositionUpdateTimer]
+-[ZWCoalescedSettings setZoomSlugPositionUpdateTimer:]
+-[ZWCoalescedSettings .cxx_destruct]
+___ZWLocString_block_invoke
+-[ZWZoomPIPLensViewController loadView]
+-[ZWZoomPIPLensViewController _applyInitialLayoutConstraints]
+-[ZWZoomPIPLensViewController identifier]
+-[ZWZoomPIPLensViewController updateLensChromeAnimated:]
+-[ZWZoomPIPLensViewController _shouldRoundLensCorners]
+-[ZWZoomPIPLensViewController _updateLensChromeVisibility:animated:completion:]
+___79-[ZWZoomPIPLensViewController _updateLensChromeVisibility:animated:completion:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ZWZoomPIPLensViewController _shouldDisableLensEffectsForStandbyMode]
+-[ZWZoomPIPLensViewController maximumPanOffsetWithZoomFactor:]
+-[ZWZoomPIPLensViewController setInLensResizingMode:]
+-[ZWZoomPIPLensViewController _updateActiveResizeHandleForTouchOnChromeAtLocation:]
+-[ZWZoomPIPLensViewController lensEdgeForTouchAtLocation:]
+-[ZWZoomPIPLensViewController grabberViews]
+-[ZWZoomPIPLensViewController _defaultGrabberForAxis:]
+-[ZWZoomPIPLensViewController _secondaryGrabberForAxis:]
+-[ZWZoomPIPLensViewController _sufficientSpaceExistsForGrabber:]
+-[ZWZoomPIPLensViewController _activeGrabberForTouchAtLocation:]
+-[ZWZoomPIPLensViewController _collapseNonactiveGrabbers]
+-[ZWZoomPIPLensViewController _updateActiveGrabberDragConstraintWithOffset:]
+-[ZWZoomPIPLensViewController _trackActiveGrabberWithTouchAtLocation:]
+-[ZWZoomPIPLensViewController updateVisibleGrabbersAnimated:]
+-[ZWZoomPIPLensViewController _handleTap:]
+-[ZWZoomPIPLensViewController _handleLongPress:]
+-[ZWZoomPIPLensViewController _lensDragMultiplier]
+-[ZWZoomPIPLensViewController scrollViewWillBeginDragging:]
+-[ZWZoomPIPLensViewController scrollViewDidScroll:]
+-[ZWZoomPIPLensViewController scrollViewDidEndDragging:willDecelerate:]
+-[ZWZoomPIPLensViewController scrollViewDidEndDecelerating:]
+-[ZWZoomPIPLensViewController zoomRootview:viewForHitTestAtPoint:]
+-[ZWZoomPIPLensViewController isInLensResizingMode]
+-[ZWZoomPIPLensViewController lensChromeView]
+-[ZWZoomPIPLensViewController setLensChromeView:]
+-[ZWZoomPIPLensViewController activeResizeHandle]
+-[ZWZoomPIPLensViewController setActiveResizeHandle:]
+-[ZWZoomPIPLensViewController topChromeGrabberView]
+-[ZWZoomPIPLensViewController setTopChromeGrabberView:]
+-[ZWZoomPIPLensViewController rightChromeGrabberView]
+-[ZWZoomPIPLensViewController setRightChromeGrabberView:]
+-[ZWZoomPIPLensViewController bottomChromeGrabberView]
+-[ZWZoomPIPLensViewController setBottomChromeGrabberView:]
+-[ZWZoomPIPLensViewController leftChromeGrabberView]
+-[ZWZoomPIPLensViewController setLeftChromeGrabberView:]
+-[ZWZoomPIPLensViewController topChromeGrabberDragConstraint]
+-[ZWZoomPIPLensViewController setTopChromeGrabberDragConstraint:]
+-[ZWZoomPIPLensViewController rightChromeGrabberDragConstraint]
+-[ZWZoomPIPLensViewController setRightChromeGrabberDragConstraint:]
+-[ZWZoomPIPLensViewController bottomChromeGrabberDragConstraint]
+-[ZWZoomPIPLensViewController setBottomChromeGrabberDragConstraint:]
+-[ZWZoomPIPLensViewController leftChromeGrabberDragConstraint]
+-[ZWZoomPIPLensViewController setLeftChromeGrabberDragConstraint:]
+-[ZWZoomPIPLensViewController activeGrabber]
+-[ZWZoomPIPLensViewController setActiveGrabber:]
+-[ZWZoomPIPLensViewController .cxx_destruct]
+-[ZWLensChromeGrabberView initWithEdge:startExpanded:]
+-[ZWLensChromeGrabberView layoutSubviews]
+-[ZWLensChromeGrabberView _grabberPathForCurrentEdgeIncludingFlatEdge:]
+-[ZWLensChromeGrabberView _grabberEtchPathForCurrentEdge]
+-[ZWLensChromeGrabberView expandGrabberAnimated:]
+___49-[ZWLensChromeGrabberView expandGrabberAnimated:]_block_invoke
+-[ZWLensChromeGrabberView collapseGrabberAnimated:]
+___51-[ZWLensChromeGrabberView collapseGrabberAnimated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ZWLensChromeGrabberView isAccessibilityElement]
+-[ZWLensChromeGrabberView accessibilityLabel]
+-[ZWLensChromeGrabberView accessibilityHint]
+-[ZWLensChromeGrabberView accessibilityTraits]
+-[ZWLensChromeGrabberView grabberEdge]
+-[ZWLensChromeGrabberView setGrabberEdge:]
+-[ZWLensChromeGrabberView outerBorderLayer]
+-[ZWLensChromeGrabberView setOuterBorderLayer:]
+-[ZWLensChromeGrabberView etchLayer]
+-[ZWLensChromeGrabberView setEtchLayer:]
+-[ZWLensChromeGrabberView isExpanded]
+-[ZWLensChromeGrabberView setExpanded:]
+-[ZWLensChromeGrabberView .cxx_destruct]
+-[ZWMenuPopoverController initWithContentViewController:]
+-[ZWMenuPopoverController _setBackgroundStyleWithInvertColors]
+-[ZWMenuPopoverController _setupPresentationController]
+___55-[ZWMenuPopoverController _setupPresentationController]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ZWLensChromeView initWithFrame:]
+-[ZWLensChromeView layoutSubviews]
+-[ZWLensChromeView updateChromeVisibility:animated:completion:]
+___63-[ZWLensChromeView updateChromeVisibility:animated:completion:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___63-[ZWLensChromeView updateChromeVisibility:animated:completion:]_block_invoke118
+___copy_helper_block_119
+___destroy_helper_block_120
+-[ZWLensChromeView showLensResizingHandles:animated:]
+-[ZWLensChromeView isAccessibilityElement]
+-[ZWLensChromeView accessibilityElements]
+___41-[ZWLensChromeView accessibilityElements]_block_invoke
+-[ZWLensChromeView chromeOuterBorderLayer]
+-[ZWLensChromeView setChromeOuterBorderLayer:]
+-[ZWLensChromeView chromeInnerBorderLayer]
+-[ZWLensChromeView setChromeInnerBorderLayer:]
+-[ZWLensChromeView lensResizingHandlesLayer]
+-[ZWLensChromeView setLensResizingHandlesLayer:]
+-[ZWLensChromeView touchStealerShapeLayer]
+-[ZWLensChromeView setTouchStealerShapeLayer:]
+-[ZWLensChromeView grabberOverlayLayer]
+-[ZWLensChromeView setGrabberOverlayLayer:]
+-[ZWLensChromeView backdropLayer]
+-[ZWLensChromeView setBackdropLayer:]
+-[ZWLensChromeView backdropMaskShapeLayer]
+-[ZWLensChromeView setBackdropMaskShapeLayer:]
+-[ZWLensChromeView backdropGrabberMaskLayer]
+-[ZWLensChromeView setBackdropGrabberMaskLayer:]
+-[ZWLensChromeView backdropResizingMaskLayer]
+-[ZWLensChromeView setBackdropResizingMaskLayer:]
+-[ZWLensChromeView resizeElements]
+-[ZWLensChromeView setResizeElements:]
+-[ZWLensChromeView previousResizeBounds]
+-[ZWLensChromeView setPreviousResizeBounds:]
+-[ZWLensChromeView showingResizeHandles]
+-[ZWLensChromeView setShowingResizeHandles:]
+-[ZWLensChromeView .cxx_destruct]
+-[ZOTFullscreenEventHandler initWithEventThread:]
+-[ZOTFullscreenEventHandler dealloc]
+-[ZOTFullscreenEventHandler _allowsFingerDistanceToAffectZoom]
+-[ZOTFullscreenEventHandler isZoomedIn]
+-[ZOTFullscreenEventHandler anyFingerDown]
+-[ZOTFullscreenEventHandler _verifyZoomActionIsAppropriate:]
+-[ZOTFullscreenEventHandler postHandCancel]
+-[ZOTFullscreenEventHandler handleEvent:]
+-[ZOTFullscreenEventHandler _handleEvent:]
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke66
+___copy_helper_block_69
+___destroy_helper_block_70
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke76
+___copy_helper_block_79
+___destroy_helper_block_80
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke82
+___copy_helper_block_83
+___destroy_helper_block_84
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke91
+___copy_helper_block_94
+___destroy_helper_block_95
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke97
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke_2
+___copy_helper_block_100
+___destroy_helper_block_101
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke103
+___copy_helper_block_106
+___destroy_helper_block_107
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke109
+___copy_helper_block_110
+___destroy_helper_block_111
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke113
+___copy_helper_block_118
+___destroy_helper_block_119
+___copy_helper_block_121
+___destroy_helper_block_122
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke126
+___copy_helper_block_129
+___destroy_helper_block_130
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke132
+___copy_helper_block_135
+___destroy_helper_block_136
+___42-[ZOTFullscreenEventHandler _handleEvent:]_block_invoke146
+___copy_helper_block_149
+___destroy_helper_block_150
+-[ZOTFullscreenEventHandler _eventPostTimerCallback]
+-[ZOTFullscreenEventHandler _clearState]
+-[ZOTFullscreenEventHandler _autoPanIfNecessaryWithEvent:]
+___58-[ZOTFullscreenEventHandler _autoPanIfNecessaryWithEvent:]_block_invoke
+___copy_helper_block_168
+___destroy_helper_block_169
+-[ZOTFullscreenEventHandler _updateAutopan]
+___43-[ZOTFullscreenEventHandler _updateAutopan]_block_invoke
+___copy_helper_block_177
+___destroy_helper_block_178
+-[ZOTFullscreenEventHandler _handleDoubleTapEvent:newLocation:]
+___63-[ZOTFullscreenEventHandler _handleDoubleTapEvent:newLocation:]_block_invoke
+___copy_helper_block_184
+___destroy_helper_block_185
+-[ZOTFullscreenEventHandler _handleMultiTapActionWithEvent:]
+___60-[ZOTFullscreenEventHandler _handleMultiTapActionWithEvent:]_block_invoke
+___copy_helper_block_187
+___destroy_helper_block_188
+___60-[ZOTFullscreenEventHandler _handleMultiTapActionWithEvent:]_block_invoke190
+___copy_helper_block_191
+___destroy_helper_block_192
+___60-[ZOTFullscreenEventHandler _handleMultiTapActionWithEvent:]_block_invoke194
+___copy_helper_block_195
+___destroy_helper_block_196
+___60-[ZOTFullscreenEventHandler _handleMultiTapActionWithEvent:]_block_invoke198
+___copy_helper_block_199
+___destroy_helper_block_200
+-[ZOTFullscreenEventHandler _currentVelocity:]
+-[ZOTFullscreenEventHandler _hasReachedFlickVelocity:]
+-[ZOTFullscreenEventHandler _middleFingerForEvent:]
+-[ZOTFullscreenEventHandler eventDelegate]
+-[ZOTFullscreenEventHandler setEventDelegate:]
+-[ZOTFullscreenEventHandler zoomDelegate]
+-[ZOTFullscreenEventHandler setZoomDelegate:]
+-[ZWMenuViewController loadView]
+-[ZWMenuViewController viewDidLoad]
+-[ZWMenuViewController viewWillAppear:]
+-[ZWMenuViewController viewWillDisappear:]
+-[ZWMenuViewController viewDidAppear:]
+-[ZWMenuViewController viewDidDisappear:]
+-[ZWMenuViewController viewDidLayoutSubviews]
+-[ZWMenuViewController _invertColorsChange]
+-[ZWMenuViewController _menuOptionArray]
+-[ZWMenuViewController _reloadTableData]
+-[ZWMenuViewController _updatePreferredContentSize]
+-[ZWMenuViewController tableView:numberOfRowsInSection:]
+-[ZWMenuViewController tableView:cellForRowAtIndexPath:]
+-[ZWMenuViewController tableView:willDisplayCell:forRowAtIndexPath:]
+-[ZWMenuViewController tableView:didSelectRowAtIndexPath:]
+___58-[ZWMenuViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ZWMenuViewController zoomCurrentLensEffectDidChange]
+-[ZWMenuViewController _dismissLensEffectChooserViewController:]
+-[ZWMenuViewController _localizedTitleForMenuItemTag:]
+-[ZWMenuViewController _cellReuseIdentifierForMenuItemTag:]
+-[ZWMenuViewController _handleZoomFactorSliderDidChange:]
+-[ZWMenuViewController _handleZoomFactorSliderTouchDidBegin:]
+-[ZWMenuViewController _handleZoomFactorSliderTouchDidEnd:]
+-[ZWMenuViewController preferredLensModesDidChange]
+-[ZWMenuViewController menuLensEffectChooserViewController:didChooseLensEffect:]
+-[ZWMenuViewController delegate]
+-[ZWMenuViewController setDelegate:]
+-[ZWMenuViewController userIsInteractingWithMenu]
+-[ZWMenuViewController setUserIsInteractingWithMenu:]
+-[ZWMenuViewController tableView]
+-[ZWMenuViewController setTableView:]
+-[ZWMenuViewController .cxx_destruct]
+-[ZWLensZoomView initWithFrame:]
+-[ZWLensZoomView layoutSubviews]
+-[ZWLensZoomView sampledContentSizeWithZoomFactor:]
+-[ZWLensZoomView showLensResizingHandlesShowing:]
+-[ZWLensZoomView animationDidStart:]
+-[ZWLensZoomView animationDidStop:finished:]
+-[ZWLensZoomView updateZoomPanOffset:zoomFactor:roundedLensCorners:animated:completion:]
+___88-[ZWLensZoomView updateZoomPanOffset:zoomFactor:roundedLensCorners:animated:completion:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ZWLensZoomView updateLensEffect:animated:completion:]
+-[ZWLensZoomView _prescaledSizeForFinalSize:zoomFactor:]
+-[ZWLensZoomView _effectiveRectForBounds:position:scaleFactor:]
+-[ZWLensZoomView zoomView]
+-[ZWLensZoomView setZoomView:]
+-[ZWLensZoomView zoomReplicatorLayer]
+-[ZWLensZoomView setZoomReplicatorLayer:]
+-[ZWLensZoomView zoomBackdropLayer]
+-[ZWLensZoomView setZoomBackdropLayer:]
+-[ZWLensZoomView effectView]
+-[ZWLensZoomView setEffectView:]
+-[ZWLensZoomView effectReplicatorLayer]
+-[ZWLensZoomView setEffectReplicatorLayer:]
+-[ZWLensZoomView effectBackdropLayer]
+-[ZWLensZoomView setEffectBackdropLayer:]
+-[ZWLensZoomView maskLayer]
+-[ZWLensZoomView setMaskLayer:]
+-[ZWLensZoomView zoomFactor]
+-[ZWLensZoomView setZoomFactor:]
+-[ZWLensZoomView zoomPanOffset]
+-[ZWLensZoomView setZoomPanOffset:]
+-[ZWLensZoomView roundedLensCorners]
+-[ZWLensZoomView setRoundedLensCorners:]
+-[ZWLensZoomView lensResizingHandlesShowing]
+-[ZWLensZoomView setLensResizingHandlesShowing:]
+-[ZWLensZoomView .cxx_destruct]
++[ZOTEvent createEventFromEventRepresentation:]
+-[ZOTEvent _initWithDeviceIdentifier:andEventRepresentation:]
+-[ZOTEvent copyWithZone:]
+-[ZOTEvent dealloc]
+-[ZOTEvent _addFingerInformation]
+-[ZOTEvent description]
+-[ZOTEvent chordChanged]
+-[ZOTEvent handEventType]
+-[ZOTEvent handTouched]
+-[ZOTEvent isTouchEventWeCareAbout]
+-[ZOTEvent record]
+-[ZOTEvent setRecord:]
+-[ZWAlertManager showZoomEnabledAlertIfAppropriate]
+-[ZWAlertManager showZoomDisabledAlertIfAppropriate]
+-[ZWAlertManager _shouldShowZoomAlert]
+-[ZWAlertManager currentAlertID]
+-[ZWAlertManager setCurrentAlertID:]
+-[ZWAlertManager .cxx_destruct]
+-[ZWEventProcessor init]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___24-[ZWEventProcessor init]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ZWEventProcessor dealloc]
+-[ZWEventProcessor _handleTouchEvent:]
+___38-[ZWEventProcessor _handleTouchEvent:]_block_invoke
+-[ZWEventProcessor _convertZoomPointToSystemPoint:lensFrame:offset:zoomFactor:]
+-[ZWEventProcessor _dispatchZoomRemapEvent:lensFrame:offset:zoomFactor:applyZoom:menuScreenRect:]
+___97-[ZWEventProcessor _dispatchZoomRemapEvent:lensFrame:offset:zoomFactor:applyZoom:menuScreenRect:]_block_invoke
+___copy_helper_block_71
+___destroy_helper_block_72
+-[ZWEventProcessor _convertZoomOffset:toScreenCoordinatesFromInterfaceOrientation:]
+-[ZWEventProcessor dispatchEventToSystem:]
+-[ZWEventProcessor dispatchEntireEventQueue]
+-[ZWEventProcessor resetEventQueue]
+-[ZWEventProcessor disableSleepTimer:]
+-[ZWEventProcessor delegate]
+-[ZWEventProcessor setDelegate:]
+-[ZWEventProcessor fullscreenEventHandler]
+-[ZWMenuItemZoomLevelSliderTableViewCell initWithStyle:reuseIdentifier:]
+-[ZWMenuItemZoomLevelSliderTableViewCell systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:]
+-[ZWMenuItemZoomLevelSliderTableViewCell zoomLevelSlider]
+-[ZWMenuItemZoomLevelSliderTableViewCell setZoomLevelSlider:]
+-[ZWMenuItemZoomLevelSliderTableViewCell zoomOutImageView]
+-[ZWMenuItemZoomLevelSliderTableViewCell setZoomOutImageView:]
+-[ZWMenuItemZoomLevelSliderTableViewCell zoomInImageView]
+-[ZWMenuItemZoomLevelSliderTableViewCell setZoomInImageView:]
+-[ZWMenuItemZoomLevelSliderTableViewCell .cxx_destruct]
++[ZWUIServer sharedInstance]
+___28+[ZWUIServer sharedInstance]_block_invoke
+-[ZWUIServer init]
+__appTransitionOccurred
+-[ZWUIServer dealloc]
+-[ZWUIServer desiredWindowLevelForContentViewController:userInteractionEnabled:]
+-[ZWUIServer processMessage:withIdentifier:fromClientWithIdentifier:error:]
+___75-[ZWUIServer processMessage:withIdentifier:fromClientWithIdentifier:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ZWUIServer zoomRootViewController]
+-[ZWUIServer setZoomRootViewController:]
+-[ZWUIServer .cxx_destruct]
+-[ZWZoomLensViewController initWithZoomFactor:zoomPanOffset:lensEffect:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___72-[ZWZoomLensViewController initWithZoomFactor:zoomPanOffset:lensEffect:]_block_invoke
+___72-[ZWZoomLensViewController initWithZoomFactor:zoomPanOffset:lensEffect:]_block_invoke_2
+___72-[ZWZoomLensViewController initWithZoomFactor:zoomPanOffset:lensEffect:]_block_invoke_3
+___72-[ZWZoomLensViewController initWithZoomFactor:zoomPanOffset:lensEffect:]_block_invoke_4
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_18
+___destroy_helper_block_19
+___72-[ZWZoomLensViewController initWithZoomFactor:zoomPanOffset:lensEffect:]_block_invoke22
+___copy_helper_block_25
+___destroy_helper_block_26
+-[ZWZoomLensViewController loadView]
+-[ZWZoomLensViewController dealloc]
+-[ZWZoomLensViewController viewDidLoad]
+-[ZWZoomLensViewController _applyInitialLayoutConstraints]
+-[ZWZoomLensViewController identifier]
+-[ZWZoomLensViewController updateZoomFactor:panOffset:animated:completion:]
+-[ZWZoomLensViewController updateLensChromeAnimated:]
+-[ZWZoomLensViewController updateLensEffect:animated:completion:]
+-[ZWZoomLensViewController setInStandbyMode:]
+-[ZWZoomLensViewController updateStandbyMode:zoomFactor:panOffset:lensEffect:animated:completion:]
+___98-[ZWZoomLensViewController updateStandbyMode:zoomFactor:panOffset:lensEffect:animated:completion:]_block_invoke
+___98-[ZWZoomLensViewController updateStandbyMode:zoomFactor:panOffset:lensEffect:animated:completion:]_block_invoke_2
+___copy_helper_block_131
+___destroy_helper_block_132
+___copy_helper_block_134
+___destroy_helper_block_135
+___98-[ZWZoomLensViewController updateStandbyMode:zoomFactor:panOffset:lensEffect:animated:completion:]_block_invoke137
+___copy_helper_block_138
+___destroy_helper_block_139
+___98-[ZWZoomLensViewController updateStandbyMode:zoomFactor:panOffset:lensEffect:animated:completion:]_block_invoke141
+___copy_helper_block_142
+___destroy_helper_block_143
+-[ZWZoomLensViewController _lensDragMultiplier]
+-[ZWZoomLensViewController _shouldRoundLensCorners]
+-[ZWZoomLensViewController _updateLensChromeVisibility:animated:completion:]
+-[ZWZoomLensViewController _shouldDisableLensEffectsForStandbyMode]
+-[ZWZoomLensViewController shouldPanZoomContentForAxis:delta:edgeMask:]
+-[ZWZoomLensViewController offsetByPanningWithDelta:axis:zoomFactor:]
+-[ZWZoomLensViewController offsetByPanningToPoint:zoomFactor:]
+-[ZWZoomLensViewController offsetByPanningToRect:zoomFactor:]
+-[ZWZoomLensViewController validPanOffsetForProposedOffset:proposedZoomFactor:]
+-[ZWZoomLensViewController maximumPanOffsetWithZoomFactor:]
+-[ZWZoomLensViewController dummyScrollViewPanGestureRecognizer]
+-[ZWZoomLensViewController dummyScrollViewContentSize]
+-[ZWZoomLensViewController dummyScrollViewDefaultOffset]
+-[ZWZoomLensViewController dummyScrollViewOffsetForSlug]
+-[ZWZoomLensViewController _handleTap:]
+-[ZWZoomLensViewController _handleLongPress:]
+-[ZWZoomLensViewController scrollViewWillBeginDragging:]
+-[ZWZoomLensViewController scrollViewDidScroll:]
+-[ZWZoomLensViewController scrollViewShouldScrollToTop:]
+-[ZWZoomLensViewController scrollViewDidEndDragging:willDecelerate:]
+-[ZWZoomLensViewController scrollViewDidEndDecelerating:]
+-[ZWZoomLensViewController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[ZWZoomLensViewController zoomRootview:viewForHitTestAtPoint:]
+-[ZWZoomLensViewController delegate]
+-[ZWZoomLensViewController setDelegate:]
+-[ZWZoomLensViewController zoomFactor]
+-[ZWZoomLensViewController setZoomFactor:]
+-[ZWZoomLensViewController zoomPanOffset]
+-[ZWZoomLensViewController setZoomPanOffset:]
+-[ZWZoomLensViewController lensEffect]
+-[ZWZoomLensViewController setLensEffect:]
+-[ZWZoomLensViewController userIsInteractingWithLens]
+-[ZWZoomLensViewController setUserIsInteractingWithLens:]
+-[ZWZoomLensViewController userIsMovingLens]
+-[ZWZoomLensViewController setUserIsMovingLens:]
+-[ZWZoomLensViewController lensZoomView]
+-[ZWZoomLensViewController setLensZoomView:]
+-[ZWZoomLensViewController inStandbyMode]
+-[ZWZoomLensViewController dummyScrollView]
+-[ZWZoomLensViewController setDummyScrollView:]
+-[ZWZoomLensViewController longPressGestureRecognizer]
+-[ZWZoomLensViewController setLongPressGestureRecognizer:]
+-[ZWZoomLensViewController tapGestureRecognizer]
+-[ZWZoomLensViewController setTapGestureRecognizer:]
+-[ZWZoomLensViewController screenshotActionHandlerIdentifier]
+-[ZWZoomLensViewController setScreenshotActionHandlerIdentifier:]
+-[ZWZoomLensViewController .cxx_destruct]
+-[ZWZoomViewController preferredLensModesDidChange]
+-[ZWZoomViewController userInteractionHasBecomeActiveWithFirstTouchAtLocation:]
+-[ZWZoomViewController userInteractionHasBecomeIdle]
+-[ZWMenuItemSimpleButtonTableViewCell initWithStyle:reuseIdentifier:]
+-[ZWMenuItemSimpleButtonTableViewCell _applyTitleLabelColor]
+-[ZWMenuLensEffectChooserViewController loadView]
+-[ZWMenuLensEffectChooserViewController viewDidLoad]
+-[ZWMenuLensEffectChooserViewController viewWillAppear:]
+-[ZWMenuLensEffectChooserViewController preferredContentSize]
+-[ZWMenuLensEffectChooserViewController tableView]
+-[ZWMenuLensEffectChooserViewController tableView:willDisplayCell:forRowAtIndexPath:]
+-[ZWMenuLensEffectChooserViewController tableView:didSelectRowAtIndexPath:]
+-[ZWMenuLensEffectChooserViewController tableView:numberOfRowsInSection:]
+-[ZWMenuLensEffectChooserViewController tableView:cellForRowAtIndexPath:]
+-[ZWMenuLensEffectChooserViewController delegate]
+-[ZWMenuLensEffectChooserViewController setDelegate:]
+-[ZWMenuLensEffectChooserViewController lensEffectIdentifiers]
+-[ZWMenuLensEffectChooserViewController setLensEffectIdentifiers:]
+-[ZWMenuLensEffectChooserViewController .cxx_destruct]
+-[ZWSlugBackgroundView initWithFrame:]
+-[ZWSlugBackgroundView isAccessibilityElement]
+-[ZWSlugBackgroundView accessibilityLabel]
+-[ZWSlugBackgroundView accessibilityHint]
+-[ZWLensRootView initWithDelegate:]
+-[ZWLensRootView hitTest:withEvent:]
+-[ZWLensRootView delegate]
+-[ZWLensRootView setDelegate:]
+-[ZWLensRootView .cxx_destruct]
+-[ZWSlugCirclePivotingView initWithFrame:]
+-[ZWSlugCirclePivotingView animationDidStart:]
+-[ZWSlugCirclePivotingView animationDidStop:finished:]
+-[ZWSlugCirclePivotingView layoutSubviews]
+-[ZWSlugCirclePivotingView circleLayer]
+-[ZWSlugCirclePivotingView setCircleLayer:]
+-[ZWSlugCirclePivotingView .cxx_destruct]
+-[ZWZoomFullscreenLensViewController _applyInitialLayoutConstraints]
+-[ZWZoomFullscreenLensViewController identifier]
+-[ZWZoomFullscreenLensViewController maximumPanOffsetWithZoomFactor:]
+-[UIView(ZWExtras) zw_boundsCenter]
+-[UIView(ZWExtras) zw_convertRectToScreenCoordinates:]
+-[UIView(ZWExtras) zw_convertRectFromScreenCoordinates:]
+-[UIView(ZWExtras) zw_convertPointToScreenCoordinates:]
+-[UIView(ZWExtras) zw_convertPointFromScreenCoordinates:]
+-[UIView(ZWExtras) zw_convertBoundsToScreenCoordinates]
+-[ZWSlugCollapsingRingView initWithFrame:]
+-[ZWSlugCollapsingRingView animationDidStart:]
+-[ZWSlugCollapsingRingView animationDidStop:finished:]
+-[ZWSlugCollapsingRingView layoutSubviews]
+-[ZWKeyboardContext isKeyboardVisible]
+-[ZWKeyboardContext keyboardFrame]
+-[ZWKeyboardContext setKeyboardFrame:]
+-[ZWKeyboardContext zoomFollowsFocus]
+-[ZWKeyboardContext setZoomFollowsFocus:]
+-[ZWKeyboardContext zoomRepositionsForKeyboard]
+-[ZWKeyboardContext setZoomRepositionsForKeyboard:]
+-[ZWKeyboardContext userMovedKeyboardLens]
+-[ZWKeyboardContext setUserMovedKeyboardLens:]
+-[ZWRootViewController initWithAXUIService:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___44-[ZWRootViewController initWithAXUIService:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___44-[ZWRootViewController initWithAXUIService:]_block_invoke120
+___copy_helper_block_123
+___destroy_helper_block_124
+___44-[ZWRootViewController initWithAXUIService:]_block_invoke128
+___copy_helper_block_131
+___destroy_helper_block_132
+___44-[ZWRootViewController initWithAXUIService:]_block_invoke134
+___copy_helper_block_135
+___destroy_helper_block_136
+___44-[ZWRootViewController initWithAXUIService:]_block_invoke138
+___copy_helper_block_139
+___destroy_helper_block_140
+___44-[ZWRootViewController initWithAXUIService:]_block_invoke148
+___copy_helper_block_149
+___destroy_helper_block_150
+-[ZWRootViewController dealloc]
+-[ZWRootViewController _loadZoomTouchExtras]
+-[ZWRootViewController _initializeZoomSettingsIfNeeded]
+-[ZWRootViewController loadView]
+-[ZWRootViewController viewDidLoad]
+-[ZWRootViewController viewWillDisappear:]
+-[ZWRootViewController viewWillAppear:]
+-[ZWRootViewController isZoomLensVisible]
+-[ZWRootViewController isZoomSlugVisible]
+-[ZWRootViewController zoomFactor]
+___34-[ZWRootViewController zoomFactor]_block_invoke
+___copy_helper_block_277
+___destroy_helper_block_278
+-[ZWRootViewController setZoomFactor:]
+___38-[ZWRootViewController setZoomFactor:]_block_invoke
+___copy_helper_block_280
+___destroy_helper_block_281
+-[ZWRootViewController zoomPanOffset]
+___37-[ZWRootViewController zoomPanOffset]_block_invoke
+___copy_helper_block_286
+___destroy_helper_block_287
+-[ZWRootViewController setZoomPanOffset:]
+___41-[ZWRootViewController setZoomPanOffset:]_block_invoke
+___copy_helper_block_289
+___destroy_helper_block_290
+-[ZWRootViewController _isZoomedToMinimum]
+-[ZWRootViewController showZoomSlugAndLens:]
+___44-[ZWRootViewController showZoomSlugAndLens:]_block_invoke
+___copy_helper_block_300
+___destroy_helper_block_301
+-[ZWRootViewController hideZoomSlugAndLens:completion:]
+___55-[ZWRootViewController hideZoomSlugAndLens:completion:]_block_invoke
+___copy_helper_block_311
+___destroy_helper_block_312
+-[ZWRootViewController handleKeyboardWillAppearWithFrame:]
+-[ZWRootViewController handleKeyboardWillHide]
+-[ZWRootViewController zoomListenerRegistered:clientIdentifier:]
+-[ZWRootViewController handleFocusChangedWithType:rect:keyboardFrame:contextId:]
+-[ZWRootViewController handleLockButtonWasPressed]
+___50-[ZWRootViewController handleLockButtonWasPressed]_block_invoke
+___copy_helper_block_360
+___destroy_helper_block_361
+-[ZWRootViewController handleDeviceWasUnlocked]
+-[ZWRootViewController handleHomeButtonWasPressed]
+-[ZWRootViewController handleSettingsAppDidUpdatePreferredLensMode:]
+-[ZWRootViewController handleSettingsAppDidUpdateIdleSlugOpacity:]
+-[ZWRootViewController handleAppActivationAnimationWillBegin]
+-[ZWRootViewController handleAppDeactivationAnimationWillBegin]
+-[ZWRootViewController handleSubstantialAppTransition]
+-[ZWRootViewController handleAppDidBecomeActiveWithID:initialKeyboardFrame:]
+-[ZWRootViewController handleAppDidEnterBackgroundWithID:]
+-[ZWRootViewController handleAppSwitcherRevealAnimationWillBegin]
+-[ZWRootViewController handleAppActivationAnimationDelay]
+-[ZWRootViewController handleAppDeactivationAnimationDelay]
+-[ZWRootViewController handleAppSwitcherRevealAnimationDelay]
+-[ZWRootViewController reachabilityScaleFactor]
+-[ZWRootViewController _focusLensOnRect:panLensContent:recentreLens:animated:completion:]
+___89-[ZWRootViewController _focusLensOnRect:panLensContent:recentreLens:animated:completion:]_block_invoke
+___copy_helper_block_402
+___destroy_helper_block_403
+-[ZWRootViewController _initializeEventUIContext]
+___49-[ZWRootViewController _initializeEventUIContext]_block_invoke
+___copy_helper_block_413
+___destroy_helper_block_414
+-[ZWRootViewController observeValueForKeyPath:ofObject:change:context:]
+___71-[ZWRootViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+___copy_helper_block_424
+___destroy_helper_block_425
+___71-[ZWRootViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke429
+___copy_helper_block_432
+___destroy_helper_block_433
+___71-[ZWRootViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke437
+___copy_helper_block_438
+___destroy_helper_block_439
+___71-[ZWRootViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke441
+___copy_helper_block_442
+___destroy_helper_block_443
+___71-[ZWRootViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke445
+___copy_helper_block_448
+___destroy_helper_block_449
+___71-[ZWRootViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke451
+___copy_helper_block_454
+___destroy_helper_block_455
+-[ZWRootViewController _disableZoomWindowHitTesting]
+-[ZWRootViewController _enableZoomWindowHitTesting]
+-[ZWRootViewController _transitionToNextLensModeAnimated:saveAsNewPreferredLensMode:completion:]
+-[ZWRootViewController _transitionToLensForMode:animated:completion:]
+-[ZWRootViewController _transitionToLens:animated:completion:]
+___62-[ZWRootViewController _transitionToLens:animated:completion:]_block_invoke
+___62-[ZWRootViewController _transitionToLens:animated:completion:]_block_invoke_2
+___copy_helper_block_469
+___destroy_helper_block_470
+___copy_helper_block_477
+___destroy_helper_block_478
+___62-[ZWRootViewController _transitionToLens:animated:completion:]_block_invoke482
+___62-[ZWRootViewController _transitionToLens:animated:completion:]_block_invoke_2491
+___copy_helper_block_492
+___destroy_helper_block_493
+___copy_helper_block_497
+___destroy_helper_block_498
+___62-[ZWRootViewController _transitionToLens:animated:completion:]_block_invoke502
+___62-[ZWRootViewController _transitionToLens:animated:completion:]_block_invoke_2503
+___copy_helper_block_510
+___destroy_helper_block_511
+___copy_helper_block_513
+___destroy_helper_block_514
+-[ZWRootViewController _beginObservingValuesForLens:]
+-[ZWRootViewController _endObservingValuesForLens:]
+-[ZWRootViewController _applyInitialConstraintsForLensViewController:]
+-[ZWRootViewController _updateKeyboardFrame:]
+___45-[ZWRootViewController _updateKeyboardFrame:]_block_invoke
+___copy_helper_block_543
+___destroy_helper_block_544
+___45-[ZWRootViewController _updateKeyboardFrame:]_block_invoke546
+___copy_helper_block_547
+___destroy_helper_block_548
+___45-[ZWRootViewController _updateKeyboardFrame:]_block_invoke550
+___copy_helper_block_551
+___destroy_helper_block_552
+-[ZWRootViewController _updateLensLayout]
+-[ZWRootViewController _determineSuitableLensFrame]
+-[ZWRootViewController _lensDefaultSize]
+-[ZWRootViewController _lensMinimumSize]
+-[ZWRootViewController _lensMaximumSize]
+-[ZWRootViewController _slugOriginForNormalizedPosition:]
+-[ZWRootViewController _slugNormalizedPositionForCurrentPosition]
+-[ZWRootViewController _updateSlugLayoutAnimated:]
+___50-[ZWRootViewController _updateSlugLayoutAnimated:]_block_invoke
+___copy_helper_block_587
+___destroy_helper_block_588
+___50-[ZWRootViewController _updateSlugLayoutAnimated:]_block_invoke590
+___50-[ZWRootViewController _updateSlugLayoutAnimated:]_block_invoke_2
+___copy_helper_block_591
+___destroy_helper_block_592
+___copy_helper_block_594
+___destroy_helper_block_595
+-[ZWRootViewController _lensIsNearTopOrBottomOfScreen]
+-[ZWRootViewController _resizeZoomLensByDelta:]
+-[ZWRootViewController _moveZoomItemWithController:byDelta:animated:userInitiated:]
+___83-[ZWRootViewController _moveZoomItemWithController:byDelta:animated:userInitiated:]_block_invoke
+___copy_helper_block_625
+___destroy_helper_block_626
+___83-[ZWRootViewController _moveZoomItemWithController:byDelta:animated:userInitiated:]_block_invoke630
+___copy_helper_block_631
+___destroy_helper_block_632
+___83-[ZWRootViewController _moveZoomItemWithController:byDelta:animated:userInitiated:]_block_invoke634
+___copy_helper_block_642
+___destroy_helper_block_643
+-[ZWRootViewController _updateLensEdgeMaskForZoomController:]
+-[ZWRootViewController _unzoomDueToAppTransitionIfNeeded]
+-[ZWRootViewController _rezoomDueToAppTransitionIfNeeded]
+-[ZWRootViewController viewWillTransitionToSize:withTransitionCoordinator:]
+___75-[ZWRootViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+___75-[ZWRootViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+___75-[ZWRootViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_3
+___copy_helper_block_663
+___destroy_helper_block_664
+___75-[ZWRootViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke668
+___copy_helper_block_669
+___destroy_helper_block_670
+___copy_helper_block_672
+___destroy_helper_block_673
+-[ZWRootViewController _presentMenuWithAnchorView:animated:]
+-[ZWRootViewController _dismissMenuAnimated:]
+-[ZWRootViewController _menuDidDisappear]
+___41-[ZWRootViewController _menuDidDisappear]_block_invoke
+___copy_helper_block_694
+___destroy_helper_block_695
+-[ZWRootViewController slugWasSingleTappedWithSlugViewController:]
+-[ZWRootViewController slugWasDoubleTappedWithSlugViewController:]
+___66-[ZWRootViewController slugWasDoubleTappedWithSlugViewController:]_block_invoke
+___copy_helper_block_707
+___destroy_helper_block_708
+-[ZWRootViewController zoomSlugViewController:didDragSlug:withDelta:]
+-[ZWRootViewController zoomSlugViewController:wantsToAutomoveLenswithDelta:]
+-[ZWRootViewController willBeginAutopanningLensWithSlugViewController:]
+-[ZWRootViewController shouldBeginAutopanningLensWithSlugViewController:]
+-[ZWRootViewController didFinishAutopanningLensWithSlugViewController:]
+-[ZWRootViewController shouldShowSlugWithSlugViewController:]
+-[ZWRootViewController zoomLensViewController:willBeginMovingLens:]
+-[ZWRootViewController zoomLensViewController:didMoveLens:withDelta:]
+-[ZWRootViewController zoomLensViewController:didFinishMovingLens:]
+-[ZWRootViewController shouldHideGrabbersWithZoomLensViewController:]
+-[ZWRootViewController zoomLensViewController:grabberDidReceiveTap:]
+-[ZWRootViewController dismissMenuWithMenuViewController:]
+-[ZWRootViewController menuViewController:finishedAdjustingZoomFactor:]
+-[ZWRootViewController menuViewController:adjustZoomFactor:]
+___60-[ZWRootViewController menuViewController:adjustZoomFactor:]_block_invoke
+___copy_helper_block_718
+___destroy_helper_block_719
+-[ZWRootViewController menuViewController:applyNextLensModeWithCompletion:]
+___75-[ZWRootViewController menuViewController:applyNextLensModeWithCompletion:]_block_invoke
+___copy_helper_block_723
+___destroy_helper_block_724
+-[ZWRootViewController menuViewController:didChooseLensEffect:]
+-[ZWRootViewController toggleSlugVisibilityWithMenuViewController:]
+-[ZWRootViewController _exitStandbyIfNecessary]
+___47-[ZWRootViewController _exitStandbyIfNecessary]_block_invoke
+___copy_helper_block_728
+___destroy_helper_block_729
+-[ZWRootViewController toggleLensVisibilityWithMenuViewController:]
+___67-[ZWRootViewController toggleLensVisibilityWithMenuViewController:]_block_invoke
+___copy_helper_block_731
+___destroy_helper_block_732
+-[ZWRootViewController toggleLensResizeModeWithMenuViewController:]
+___67-[ZWRootViewController toggleLensResizeModeWithMenuViewController:]_block_invoke
+___copy_helper_block_736
+___destroy_helper_block_737
+-[ZWRootViewController inFullscreenModeForMenuViewController:]
+-[ZWRootViewController inStandByForMenuViewController:]
+-[ZWRootViewController zoomFactorForMenuViewController:]
+-[ZWRootViewController menuDidDisappear:]
+-[ZWRootViewController menuDidAppear:]
+___38-[ZWRootViewController menuDidAppear:]_block_invoke
+___copy_helper_block_739
+___destroy_helper_block_740
+-[ZWRootViewController disableZoomWindowHitTestingWithEventProcessor:]
+-[ZWRootViewController currentUIContextForEventProcessor:]
+___58-[ZWRootViewController currentUIContextForEventProcessor:]_block_invoke
+___copy_helper_block_745
+___destroy_helper_block_746
+-[ZWRootViewController currentInterfaceOrientationForEventProcessor:]
+-[ZWRootViewController eventProcessor:didGet3FingerDragWithDelta:]
+___66-[ZWRootViewController eventProcessor:didGet3FingerDragWithDelta:]_block_invoke
+___copy_helper_block_750
+___destroy_helper_block_751
+-[ZWRootViewController eventProcessor:didGetFirstTouchAtLocation:]
+___66-[ZWRootViewController eventProcessor:didGetFirstTouchAtLocation:]_block_invoke
+___66-[ZWRootViewController eventProcessor:didGetFirstTouchAtLocation:]_block_invoke_2
+___copy_helper_block_763
+___destroy_helper_block_764
+___copy_helper_block_766
+___destroy_helper_block_767
+-[ZWRootViewController lastFingerWasLiftedWithEventProcessor:]
+___62-[ZWRootViewController lastFingerWasLiftedWithEventProcessor:]_block_invoke
+___62-[ZWRootViewController lastFingerWasLiftedWithEventProcessor:]_block_invoke_2
+___copy_helper_block_773
+___destroy_helper_block_774
+___copy_helper_block_778
+___destroy_helper_block_779
+-[ZWRootViewController fullscreenEventHandler:didReceiveThreeFingerDoubleTapAtLocation:]
+___88-[ZWRootViewController fullscreenEventHandler:didReceiveThreeFingerDoubleTapAtLocation:]_block_invoke
+___copy_helper_block_781
+___destroy_helper_block_782
+___88-[ZWRootViewController fullscreenEventHandler:didReceiveThreeFingerDoubleTapAtLocation:]_block_invoke784
+___88-[ZWRootViewController fullscreenEventHandler:didReceiveThreeFingerDoubleTapAtLocation:]_block_invoke_2
+___copy_helper_block_785
+___destroy_helper_block_786
+___copy_helper_block_788
+___destroy_helper_block_789
+___88-[ZWRootViewController fullscreenEventHandler:didReceiveThreeFingerDoubleTapAtLocation:]_block_invoke791
+___copy_helper_block_792
+___destroy_helper_block_793
+-[ZWRootViewController fullscreenEventHandler:didReceiveThreeFingerTripleTapAtLocation:]
+-[ZWRootViewController fullscreenEventHandler:didReceiveThreeFingerSingleTapAtLocation:]
+-[ZWRootViewController zoomLevelWithFullscreenEventHandler:]
+-[ZWRootViewController fullscreenEventHandler:setZoomLevel:duration:]
+___69-[ZWRootViewController fullscreenEventHandler:setZoomLevel:duration:]_block_invoke
+___copy_helper_block_799
+___destroy_helper_block_800
+-[ZWRootViewController fullscreenEventHandler:updateZoomMovementWithPoint:]
+___75-[ZWRootViewController fullscreenEventHandler:updateZoomMovementWithPoint:]_block_invoke
+___copy_helper_block_806
+___destroy_helper_block_807
+-[ZWRootViewController isZoomMovingWithVelocityWithFullscreenEventHandler:]
+-[ZWRootViewController stopZoomMovementWithVelocityWithFullscreenEventHandler:]
+-[ZWRootViewController endZoomMovementWithFullscreenEventHandler:]
+-[ZWRootViewController fullscreenEventHandler:continueZoomMovementWithVelocity:angle:]
+___86-[ZWRootViewController fullscreenEventHandler:continueZoomMovementWithVelocity:angle:]_block_invoke
+___copy_helper_block_825
+___destroy_helper_block_826
+-[ZWRootViewController blockNotificationCenterGestureIfNeededWithFullscreenEventHandler:]
+-[ZWRootViewController blockControlCenterGestureIfNeededWithFullscreenEventHandler:]
+-[ZWRootViewController updateStoredZoomedLevelWithFullscreenEventHandler:]
+-[ZWRootViewController storedZoomLevelWithFullscreenEventHandler:]
+-[ZWRootViewController zoomLocationWithFullscreenEventHandler:]
+-[ZWRootViewController fullscreenEventHandler:storeZoomLevel:location:zoomed:forKey:]
+-[ZWRootViewController usingRelativePushPanningWithFullscreenEventHandler:]
+-[ZWRootViewController fullscreenEventHandler:setUsingRelativePushPanning:]
+-[ZWRootViewController fullscreenEventHandler:autopanWithLocation:initialSingleFingerLocation:]
+-[ZWRootViewController fullscreenEventHandler:autopanShouldStartWithEvent:speedFactor:initialSingleFingerLocation:]
+-[ZWRootViewController interfaceOrientationWithFullscreenEventHandler:]
+-[ZWRootViewController _updateSystemGestureBlockers]
+-[ZWRootViewController _zoomMovementHeartbeat]
+-[ZWRootViewController _zoomMovementHeartbeat:fullscreenEventHandler:]
+-[ZWRootViewController _calculateDurationForVelocity:]
+-[ZWRootViewController _shouldBlockShowNotificationGesture]
+-[ZWRootViewController _shouldBlockShowControlCenterGesture]
+-[ZWRootViewController _interfaceAwareAdjustedAngleForScreenAngle:]
+-[ZWRootViewController popoverControllerShouldDismissPopover:]
+-[ZWRootViewController hostingWindowShouldMoveForReachability]
+-[ZWRootViewController handleReachabilityToggled:]
+-[ZWRootViewController didAnimateForReachabilityToOffset:]
+___58-[ZWRootViewController didAnimateForReachabilityToOffset:]_block_invoke
+___copy_helper_block_847
+___destroy_helper_block_848
+-[ZWRootViewController _updateZoomListeners]
+___44-[ZWRootViewController _updateZoomListeners]_block_invoke
+___copy_helper_block_868
+___destroy_helper_block_869
+-[ZWRootViewController _isZoomFactorAtMinimum:]
+-[ZWRootViewController axuiService]
+-[ZWRootViewController setAxuiService:]
+-[ZWRootViewController containerView]
+-[ZWRootViewController setContainerView:]
+-[ZWRootViewController zoomAlertManager]
+-[ZWRootViewController setZoomAlertManager:]
+-[ZWRootViewController zoomWasUnzoomedDueToAppTransition]
+-[ZWRootViewController setZoomWasUnzoomedDueToAppTransition:]
+-[ZWRootViewController reachabilityOffset]
+-[ZWRootViewController setReachabilityOffset:]
+-[ZWRootViewController kbContext]
+-[ZWRootViewController setKbContext:]
+-[ZWRootViewController disableSystemGesturesAssertionLensOnEdge]
+-[ZWRootViewController setDisableSystemGesturesAssertionLensOnEdge:]
+-[ZWRootViewController activeLensViewController]
+-[ZWRootViewController setActiveLensViewController:]
+-[ZWRootViewController pipLensViewController]
+-[ZWRootViewController setPipLensViewController:]
+-[ZWRootViewController lensDragXConstraint]
+-[ZWRootViewController setLensDragXConstraint:]
+-[ZWRootViewController lensDragYConstraint]
+-[ZWRootViewController setLensDragYConstraint:]
+-[ZWRootViewController lensWidthConstraint]
+-[ZWRootViewController setLensWidthConstraint:]
+-[ZWRootViewController lensHeightConstraint]
+-[ZWRootViewController setLensHeightConstraint:]
+-[ZWRootViewController pipLensEdgeMask]
+-[ZWRootViewController setPipLensEdgeMask:]
+-[ZWRootViewController fullscreenLensViewController]
+-[ZWRootViewController setFullscreenLensViewController:]
+-[ZWRootViewController slugViewController]
+-[ZWRootViewController setSlugViewController:]
+-[ZWRootViewController slugRingDragXConstraint]
+-[ZWRootViewController setSlugRingDragXConstraint:]
+-[ZWRootViewController slugRingDragYConstraint]
+-[ZWRootViewController setSlugRingDragYConstraint:]
+-[ZWRootViewController slugEdgeMask]
+-[ZWRootViewController setSlugEdgeMask:]
+-[ZWRootViewController menuViewController]
+-[ZWRootViewController setMenuViewController:]
+-[ZWRootViewController menuPopoverController]
+-[ZWRootViewController setMenuPopoverController:]
+-[ZWRootViewController idleTouchTimer]
+-[ZWRootViewController setIdleTouchTimer:]
+-[ZWRootViewController eventManager]
+-[ZWRootViewController setEventManager:]
+-[ZWRootViewController cachedValuesSerialQueue]
+-[ZWRootViewController setCachedValuesSerialQueue:]
+-[ZWRootViewController debugFocusView]
+-[ZWRootViewController setDebugFocusView:]
+-[ZWRootViewController .cxx_destruct]
+___ZOTMainScreenScaleFactor_block_invoke
+___ZOTUpdateDeviceOrientation_block_invoke
+-[NSThread(ZOTPriv) zotRunBlock:]
+___ZOTDispatchEventThreadWithDelay_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___ZOTGutterDistance_block_invoke
+___ZOTNotGutterFrame_block_invoke
+-[ZWZoomSlugViewController initWithNibName:bundle:]
+-[ZWZoomSlugViewController loadView]
+-[ZWZoomSlugViewController slugRingView]
+-[ZWZoomSlugViewController updateSlugVisibility]
+-[ZWZoomSlugViewController _updateSlugAppearanceForMode:]
+___57-[ZWZoomSlugViewController _updateSlugAppearanceForMode:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ZWZoomSlugViewController _didBeginInteractingWithSlug]
+-[ZWZoomSlugViewController _didFinishInteractingWithSlug]
+-[ZWZoomSlugViewController updateIdleSlugOpacityAndPreviewImmediately:]
+-[ZWZoomSlugViewController _cancelDimAfterDelay]
+-[ZWZoomSlugViewController _dimAfterDelay]
+___42-[ZWZoomSlugViewController _dimAfterDelay]_block_invoke
+___copy_helper_block_172
+___destroy_helper_block_173
+-[ZWZoomSlugViewController _updateSlugDimStatus:Animated:]
+___58-[ZWZoomSlugViewController _updateSlugDimStatus:Animated:]_block_invoke
+___copy_helper_block_183
+___destroy_helper_block_184
+-[ZWZoomSlugViewController _beginAutomovingZoomLens]
+-[ZWZoomSlugViewController _endAutomovingZoomLens]
+-[ZWZoomSlugViewController _handleDisplayLinkTimerDidFire:]
+-[ZWZoomSlugViewController _lensMovementDeltaForDpadOffset:]
+-[ZWZoomSlugViewController _handleSingleTap:]
+-[ZWZoomSlugViewController _handleDoubleTap:]
+-[ZWZoomSlugViewController _handleLongPress:]
+-[ZWZoomSlugViewController _handlePan:]
+-[ZWZoomSlugViewController userInteractionHasBecomeIdle]
+-[ZWZoomSlugViewController userInteractionHasBecomeActiveWithFirstTouchAtLocation:]
+-[ZWZoomSlugViewController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[ZWZoomSlugViewController delegate]
+-[ZWZoomSlugViewController setDelegate:]
+-[ZWZoomSlugViewController userIsInteractingWithSlug]
+-[ZWZoomSlugViewController setUserIsInteractingWithSlug:]
+-[ZWZoomSlugViewController collapsingRingView]
+-[ZWZoomSlugViewController setCollapsingRingView:]
+-[ZWZoomSlugViewController collapsingRingWidthConstraint]
+-[ZWZoomSlugViewController setCollapsingRingWidthConstraint:]
+-[ZWZoomSlugViewController collapsingRingHeightConstraint]
+-[ZWZoomSlugViewController setCollapsingRingHeightConstraint:]
+-[ZWZoomSlugViewController circlePivotingView]
+-[ZWZoomSlugViewController setCirclePivotingView:]
+-[ZWZoomSlugViewController circlePivotWidthConstraint]
+-[ZWZoomSlugViewController setCirclePivotWidthConstraint:]
+-[ZWZoomSlugViewController circlePivotHeightConstraint]
+-[ZWZoomSlugViewController setCirclePivotHeightConstraint:]
+-[ZWZoomSlugViewController circlePivotOffsetXConstraint]
+-[ZWZoomSlugViewController setCirclePivotOffsetXConstraint:]
+-[ZWZoomSlugViewController circlePivotOffsetYConstraint]
+-[ZWZoomSlugViewController setCirclePivotOffsetYConstraint:]
+-[ZWZoomSlugViewController leftTriangleView]
+-[ZWZoomSlugViewController setLeftTriangleView:]
+-[ZWZoomSlugViewController leftTriangleRadiusDistanceConstraint]
+-[ZWZoomSlugViewController setLeftTriangleRadiusDistanceConstraint:]
+-[ZWZoomSlugViewController rightTriangleView]
+-[ZWZoomSlugViewController setRightTriangleView:]
+-[ZWZoomSlugViewController rightTriangleRadiusDistanceConstraint]
+-[ZWZoomSlugViewController setRightTriangleRadiusDistanceConstraint:]
+-[ZWZoomSlugViewController topTriangleView]
+-[ZWZoomSlugViewController setTopTriangleView:]
+-[ZWZoomSlugViewController topTriangleRadiusDistanceConstraint]
+-[ZWZoomSlugViewController setTopTriangleRadiusDistanceConstraint:]
+-[ZWZoomSlugViewController bottomTriangleView]
+-[ZWZoomSlugViewController setBottomTriangleView:]
+-[ZWZoomSlugViewController bottomTriangleRadiusDistanceConstraint]
+-[ZWZoomSlugViewController setBottomTriangleRadiusDistanceConstraint:]
+-[ZWZoomSlugViewController longPressGesture]
+-[ZWZoomSlugViewController setLongPressGesture:]
+-[ZWZoomSlugViewController panGesture]
+-[ZWZoomSlugViewController setPanGesture:]
+-[ZWZoomSlugViewController singleTapGesture]
+-[ZWZoomSlugViewController setSingleTapGesture:]
+-[ZWZoomSlugViewController doubleTapGesture]
+-[ZWZoomSlugViewController setDoubleTapGesture:]
+-[ZWZoomSlugViewController isInUserRepositioningMode]
+-[ZWZoomSlugViewController setInUserRepositioningMode:]
+-[ZWZoomSlugViewController displayLinkTimer]
+-[ZWZoomSlugViewController setDisplayLinkTimer:]
+-[ZWZoomSlugViewController isAutomovingLens]
+-[ZWZoomSlugViewController setAutomovingLens:]
+-[ZWZoomSlugViewController currentOffsetAngle]
+-[ZWZoomSlugViewController setCurrentOffsetAngle:]
+-[ZWZoomSlugViewController deltaFromInitialTouch]
+-[ZWZoomSlugViewController setDeltaFromInitialTouch:]
+-[ZWZoomSlugViewController deltaFramLastPanEvent]
+-[ZWZoomSlugViewController setDeltaFramLastPanEvent:]
+-[ZWZoomSlugViewController idleSlugOpacity]
+-[ZWZoomSlugViewController setIdleSlugOpacity:]
+-[ZWZoomSlugViewController dimTimer]
+-[ZWZoomSlugViewController setDimTimer:]
+-[ZWZoomSlugViewController .cxx_destruct]
+_objc_release$shim
+_objc_storeStrong$shim
+_objc_retainAutoreleaseReturnValue$shim
+_AXDeviceIsPhone$shim
+_objc_autoreleaseReturnValue$shim
+_objc_msgSend$shim
+__Block_object_assign$shim
+_objc_retain$shim
+_BKSHIDServicesCancelTouchesOnMainDisplay$shim
+__Block_object_dispose$shim
+_objc_storeWeak$shim
+_objc_setProperty_nonatomic$shim
+_objc_destroyWeak$shim
+_dispatch_async$shim
+ stub helpers
+GCC_except_table0
+GCC_except_table0
+GCC_except_table9
+GCC_except_table247
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp24
+___block_descriptor_tmp36
+___block_descriptor_tmp50
+___block_descriptor_tmp60
+___block_descriptor_tmp117
+___block_literal_global118
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp86
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp122
+___block_descriptor_tmp128
+___block_descriptor_tmp
+___block_descriptor_tmp71
+___block_descriptor_tmp81
+___block_descriptor_tmp85
+___block_descriptor_tmp96
+___block_descriptor_tmp102
+___block_descriptor_tmp108
+___block_descriptor_tmp112
+___block_descriptor_tmp120
+___block_descriptor_tmp123
+___block_descriptor_tmp131
+___block_descriptor_tmp137
+___block_descriptor_tmp151
+___block_descriptor_tmp170
+___block_descriptor_tmp179
+___block_descriptor_tmp186
+___block_descriptor_tmp189
+___block_descriptor_tmp193
+___block_descriptor_tmp197
+___block_descriptor_tmp201
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp43
+___block_literal_global
+___block_descriptor_tmp73
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp27
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp15
+___block_literal_global16
+___block_descriptor_tmp17
+___block_descriptor_tmp21
+___block_descriptor_tmp28
+___block_descriptor_tmp133
+___block_descriptor_tmp136
+___block_descriptor_tmp140
+___block_descriptor_tmp144
+___block_descriptor_tmp
+___block_descriptor_tmp125
+___block_descriptor_tmp133
+___block_descriptor_tmp137
+___block_descriptor_tmp141
+___block_descriptor_tmp152
+___block_descriptor_tmp279
+___block_descriptor_tmp282
+___block_descriptor_tmp288
+___block_descriptor_tmp291
+___block_descriptor_tmp302
+___block_descriptor_tmp313
+___block_descriptor_tmp362
+___block_descriptor_tmp404
+___block_descriptor_tmp415
+___block_descriptor_tmp426
+___block_descriptor_tmp434
+___block_descriptor_tmp440
+___block_descriptor_tmp444
+___block_descriptor_tmp450
+___block_descriptor_tmp456
+___block_descriptor_tmp471
+___block_descriptor_tmp479
+___block_descriptor_tmp494
+___block_descriptor_tmp499
+___block_descriptor_tmp512
+___block_descriptor_tmp515
+___block_descriptor_tmp545
+___block_descriptor_tmp549
+___block_descriptor_tmp553
+___block_descriptor_tmp589
+___block_descriptor_tmp593
+___block_descriptor_tmp597
+___block_descriptor_tmp627
+___block_descriptor_tmp633
+___block_descriptor_tmp644
+___block_descriptor_tmp662
+___block_literal_global
+___block_descriptor_tmp665
+___block_descriptor_tmp671
+___block_descriptor_tmp674
+___block_descriptor_tmp696
+___block_descriptor_tmp709
+___block_descriptor_tmp720
+___block_descriptor_tmp725
+___block_descriptor_tmp730
+___block_descriptor_tmp733
+___block_descriptor_tmp738
+___block_descriptor_tmp741
+___block_descriptor_tmp747
+___block_descriptor_tmp752
+___block_descriptor_tmp765
+___block_descriptor_tmp768
+___block_descriptor_tmp775
+___block_descriptor_tmp780
+___block_descriptor_tmp783
+___block_descriptor_tmp787
+___block_descriptor_tmp790
+___block_descriptor_tmp794
+___block_descriptor_tmp801
+___block_descriptor_tmp808
+___block_descriptor_tmp827
+___block_descriptor_tmp849
+___block_descriptor_tmp870
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp22
+___block_literal_global23
+___block_descriptor_tmp42
+___block_descriptor_tmp45
+___block_literal_global46
+___block_descriptor_tmp47
+___block_literal_global48
+___block_descriptor_tmp
+___block_descriptor_tmp174
+___block_descriptor_tmp185
+_OBJC_IVAR_$_ZWSlugTriangleView._triangleLayer
+_OBJC_IVAR_$_ZWSlugTriangleView._triangle
+_OBJC_IVAR_$_ZWCoalescedSettings._cachedZoomLensFrame
+_OBJC_IVAR_$_ZWCoalescedSettings._cachedZoomFactor
+_OBJC_IVAR_$_ZWCoalescedSettings._cachedZoomPanOffset
+_OBJC_IVAR_$_ZWCoalescedSettings._cachedZoomSlugPosition
+_OBJC_IVAR_$_ZWCoalescedSettings._zoomLensFrameUpdateTimer
+_OBJC_IVAR_$_ZWCoalescedSettings._zoomFactorUpdateTimer
+_OBJC_IVAR_$_ZWCoalescedSettings._zoomPanOffsetUpdateTimer
+_OBJC_IVAR_$_ZWCoalescedSettings._zoomSlugPositionUpdateTimer
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._inLensResizingMode
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._lensChromeView
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._activeResizeHandle
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._topChromeGrabberView
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._rightChromeGrabberView
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._bottomChromeGrabberView
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._leftChromeGrabberView
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._topChromeGrabberDragConstraint
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._rightChromeGrabberDragConstraint
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._bottomChromeGrabberDragConstraint
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._leftChromeGrabberDragConstraint
+_OBJC_IVAR_$_ZWZoomPIPLensViewController._activeGrabber
+_OBJC_IVAR_$_ZWLensChromeGrabberView._grabberEdge
+_OBJC_IVAR_$_ZWLensChromeGrabberView._outerBorderLayer
+_OBJC_IVAR_$_ZWLensChromeGrabberView._etchLayer
+_OBJC_IVAR_$_ZWLensChromeGrabberView._expanded
+_OBJC_IVAR_$_ZWLensChromeView._chromeOuterBorderLayer
+_OBJC_IVAR_$_ZWLensChromeView._chromeInnerBorderLayer
+_OBJC_IVAR_$_ZWLensChromeView._lensResizingHandlesLayer
+_OBJC_IVAR_$_ZWLensChromeView._touchStealerShapeLayer
+_OBJC_IVAR_$_ZWLensChromeView._grabberOverlayLayer
+_OBJC_IVAR_$_ZWLensChromeView._backdropLayer
+_OBJC_IVAR_$_ZWLensChromeView._backdropMaskShapeLayer
+_OBJC_IVAR_$_ZWLensChromeView._backdropGrabberMaskLayer
+_OBJC_IVAR_$_ZWLensChromeView._backdropResizingMaskLayer
+_OBJC_IVAR_$_ZWLensChromeView._resizeElements
+_OBJC_IVAR_$_ZWLensChromeView._previousResizeBounds
+_OBJC_IVAR_$_ZWLensChromeView._showingResizeHandles
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._snarfLastTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._lastPanTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._velocityLastTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._tapDoubleLastTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._tapLastTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._lastAppTransition
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._flickTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._autopanDelay
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._borderpanStartTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._twoFingerTapDownWithHold
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._firstFingerDownTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._secondFingerDownTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._anyFingerDownTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._lastEventTime
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._autopanTimer
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._multiTapTimer
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._passthruEventTimer
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._tapCountResetTimer
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._anyFingerDown
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._eventFingersTracking
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._snarfing
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._zoomDisabledForApp
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._wasPassingThroughSystemGesture
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._lastDownEvent
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._ignoreSnarfingForFingerSession
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._eventPostTimer
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._tapPoint
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._autopanDownEvent
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._zooming
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._zoomPanning
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._snarfFingerCount
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._snarfFingerIdentifier
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._trackingLocation
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._offsetLocation
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._tapCount
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._velocityLocation
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._pannerTrackDistance
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._borderpanMode
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._averageVelocity
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._initialSingleFingerLocation
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._currentVector
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._zoomLevel
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._zoomStartOffset
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._tapDoubleTracking
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._currentlyTransititioningBetweenApps
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._applicationKey
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._allowTimedEventPosting
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._lastEvent
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._autopanEvent
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._timerFingerCount
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._flicking
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._flickLocation
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._pinchDetectionDistance
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._deviceOrientation
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._zoomerTrackStart
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._eventDelegate
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._zoomDelegate
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._eventQueue
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._cachedGestures
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._currentEventPort
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._passthruEventQueue
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._zoomMenuVisible
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._isInLockScreen
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._wasFlicking
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._sleepTimerDisabled
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._conflictAlertVisible
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._conflictAlertData
+_OBJC_IVAR_$_ZOTFullscreenEventHandler._cameraRunning
+_OBJC_IVAR_$_ZWMenuViewController._fullscreenMenuOptions
+_OBJC_IVAR_$_ZWMenuViewController._pipMenuOptions
+_OBJC_IVAR_$_ZWMenuViewController._delegate
+_OBJC_IVAR_$_ZWMenuViewController._userIsInteractingWithMenu
+_OBJC_IVAR_$_ZWMenuViewController._tableView
+_OBJC_IVAR_$_ZWLensZoomView._zoomView
+_OBJC_IVAR_$_ZWLensZoomView._zoomReplicatorLayer
+_OBJC_IVAR_$_ZWLensZoomView._zoomBackdropLayer
+_OBJC_IVAR_$_ZWLensZoomView._effectView
+_OBJC_IVAR_$_ZWLensZoomView._effectReplicatorLayer
+_OBJC_IVAR_$_ZWLensZoomView._effectBackdropLayer
+_OBJC_IVAR_$_ZWLensZoomView._maskLayer
+_OBJC_IVAR_$_ZWLensZoomView._zoomFactor
+_OBJC_IVAR_$_ZWLensZoomView._zoomPanOffset
+_OBJC_IVAR_$_ZWLensZoomView._roundedLensCorners
+_OBJC_IVAR_$_ZWLensZoomView._lensResizingHandlesShowing
+_OBJC_IVAR_$_ZOTEvent._record
+_OBJC_IVAR_$_ZOTEvent._chordChanged
+_OBJC_IVAR_$_ZOTEvent._handTouched
+_OBJC_IVAR_$_ZOTEvent._weCare
+_OBJC_IVAR_$_ZWAlertManager._currentAlertID
+_OBJC_IVAR_$_ZWEventProcessor._hidDispatchQueue
+_OBJC_IVAR_$_ZWEventProcessor._fullscreenEventHandler
+_OBJC_IVAR_$_ZWEventProcessor._fullScreenEventQueue
+_OBJC_IVAR_$_ZWEventProcessor._userIsTouchingScreen
+_OBJC_IVAR_$_ZWEventProcessor._firstTouchWentIntoLensContent
+_OBJC_IVAR_$_ZWEventProcessor._firstTouchWentIntoSlug
+_OBJC_IVAR_$_ZWEventProcessor._applyZoomToEventDispatch
+_OBJC_IVAR_$_ZWEventProcessor._sleepTimerDisabled
+_OBJC_IVAR_$_ZWEventProcessor._delegate
+_OBJC_IVAR_$_ZWEventProcessor._last3FingerTouchLocation
+_OBJC_IVAR_$_ZWMenuItemZoomLevelSliderTableViewCell._zoomLevelSlider
+_OBJC_IVAR_$_ZWMenuItemZoomLevelSliderTableViewCell._zoomOutImageView
+_OBJC_IVAR_$_ZWMenuItemZoomLevelSliderTableViewCell._zoomInImageView
+_OBJC_IVAR_$_ZWUIServer._zoomRootViewController
+_OBJC_IVAR_$_ZWZoomLensViewController._inStandbyMode
+_OBJC_IVAR_$_ZWZoomLensViewController._lastTapTime
+_OBJC_IVAR_$_ZWZoomLensViewController._prescrollTaps
+_OBJC_IVAR_$_ZWZoomLensViewController._lastDragOffset
+_OBJC_IVAR_$_ZWZoomLensViewController._shouldNotifyDelegateOfDrag
+_OBJC_IVAR_$_ZWZoomLensViewController._delegate
+_OBJC_IVAR_$_ZWZoomLensViewController._zoomFactor
+_OBJC_IVAR_$_ZWZoomLensViewController._zoomPanOffset
+_OBJC_IVAR_$_ZWZoomLensViewController._lensEffect
+_OBJC_IVAR_$_ZWZoomLensViewController._userIsInteractingWithLens
+_OBJC_IVAR_$_ZWZoomLensViewController._userIsMovingLens
+_OBJC_IVAR_$_ZWZoomLensViewController._lensZoomView
+_OBJC_IVAR_$_ZWZoomLensViewController._dummyScrollView
+_OBJC_IVAR_$_ZWZoomLensViewController._longPressGestureRecognizer
+_OBJC_IVAR_$_ZWZoomLensViewController._tapGestureRecognizer
+_OBJC_IVAR_$_ZWZoomLensViewController._screenshotActionHandlerIdentifier
+_OBJC_IVAR_$_ZWMenuLensEffectChooserViewController._delegate
+_OBJC_IVAR_$_ZWMenuLensEffectChooserViewController._lensEffectIdentifiers
+_OBJC_IVAR_$_ZWLensRootView._delegate
+_OBJC_IVAR_$_ZWSlugCirclePivotingView._circleLayer
+_OBJC_IVAR_$_ZWKeyboardContext._keyboardFrame
+_OBJC_IVAR_$_ZWKeyboardContext._zoomFollowsFocus
+_OBJC_IVAR_$_ZWKeyboardContext._zoomRepositionsForKeyboard
+_OBJC_IVAR_$_ZWKeyboardContext._userMovedKeyboardLens
+_OBJC_IVAR_$_ZWRootViewController._axuiService
+_OBJC_IVAR_$_ZWRootViewController._kbContext
+_OBJC_IVAR_$_ZWRootViewController._zoomListeners
+_OBJC_IVAR_$_ZWRootViewController._zoomListenerUpdate
+_OBJC_IVAR_$_ZWRootViewController._cachedIsVoiceOverRunning
+_OBJC_IVAR_$_ZWRootViewController._voiceOverStatusChangedNotificationObserverToken
+_OBJC_IVAR_$_ZWRootViewController._cachedValuesSerialQueue
+_OBJC_IVAR_$_ZWRootViewController._eventUIContext
+_OBJC_IVAR_$_ZWRootViewController._lastTypingFocusChangeTime
+_OBJC_IVAR_$_ZWRootViewController._lastDeviceUnlockTime
+_OBJC_IVAR_$_ZWRootViewController._lastMenuDismissalTime
+_OBJC_IVAR_$_ZWRootViewController._lensDeltaSinceInitialMove
+_OBJC_IVAR_$_ZWRootViewController._pipLensViewController
+_OBJC_IVAR_$_ZWRootViewController._validatePanOffsetWithFullscreen
+_OBJC_IVAR_$_ZWRootViewController._fullScreenZoomStartPosition
+_OBJC_IVAR_$_ZWRootViewController._fullScreenZoomStartOffset
+_OBJC_IVAR_$_ZWRootViewController._fullScreenZoomVelocity
+_OBJC_IVAR_$_ZWRootViewController._movementTimer
+_OBJC_IVAR_$_ZWRootViewController._distanceAvailable
+_OBJC_IVAR_$_ZWRootViewController._careBorderY
+_OBJC_IVAR_$_ZWRootViewController._careBorderX
+_OBJC_IVAR_$_ZWRootViewController._lastUpdateVelocityTime
+_OBJC_IVAR_$_ZWRootViewController._isBlockingShowNotifications
+_OBJC_IVAR_$_ZWRootViewController._isBlockingControlCenter
+_OBJC_IVAR_$_ZWRootViewController._usingRelativePushPanning
+_OBJC_IVAR_$_ZWRootViewController._containerView
+_OBJC_IVAR_$_ZWRootViewController._zoomAlertManager
+_OBJC_IVAR_$_ZWRootViewController._zoomWasUnzoomedDueToAppTransition
+_OBJC_IVAR_$_ZWRootViewController._reachabilityOffset
+_OBJC_IVAR_$_ZWRootViewController._disableSystemGesturesAssertionLensOnEdge
+_OBJC_IVAR_$_ZWRootViewController._activeLensViewController
+_OBJC_IVAR_$_ZWRootViewController._lensDragXConstraint
+_OBJC_IVAR_$_ZWRootViewController._lensDragYConstraint
+_OBJC_IVAR_$_ZWRootViewController._lensWidthConstraint
+_OBJC_IVAR_$_ZWRootViewController._lensHeightConstraint
+_OBJC_IVAR_$_ZWRootViewController._pipLensEdgeMask
+_OBJC_IVAR_$_ZWRootViewController._fullscreenLensViewController
+_OBJC_IVAR_$_ZWRootViewController._slugViewController
+_OBJC_IVAR_$_ZWRootViewController._slugRingDragXConstraint
+_OBJC_IVAR_$_ZWRootViewController._slugRingDragYConstraint
+_OBJC_IVAR_$_ZWRootViewController._slugEdgeMask
+_OBJC_IVAR_$_ZWRootViewController._menuViewController
+_OBJC_IVAR_$_ZWRootViewController._menuPopoverController
+_OBJC_IVAR_$_ZWRootViewController._idleTouchTimer
+_OBJC_IVAR_$_ZWRootViewController._eventManager
+_OBJC_IVAR_$_ZWRootViewController._debugFocusView
+_OBJC_IVAR_$_ZWZoomSlugViewController._lastPanLocation
+_OBJC_IVAR_$_ZWZoomSlugViewController._firstTouchLocation
+_OBJC_IVAR_$_ZWZoomSlugViewController._delegate
+_OBJC_IVAR_$_ZWZoomSlugViewController._userIsInteractingWithSlug
+_OBJC_IVAR_$_ZWZoomSlugViewController._collapsingRingView
+_OBJC_IVAR_$_ZWZoomSlugViewController._collapsingRingWidthConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._collapsingRingHeightConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._circlePivotingView
+_OBJC_IVAR_$_ZWZoomSlugViewController._circlePivotWidthConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._circlePivotHeightConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._circlePivotOffsetXConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._circlePivotOffsetYConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._leftTriangleView
+_OBJC_IVAR_$_ZWZoomSlugViewController._leftTriangleRadiusDistanceConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._rightTriangleView
+_OBJC_IVAR_$_ZWZoomSlugViewController._rightTriangleRadiusDistanceConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._topTriangleView
+_OBJC_IVAR_$_ZWZoomSlugViewController._topTriangleRadiusDistanceConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._bottomTriangleView
+_OBJC_IVAR_$_ZWZoomSlugViewController._bottomTriangleRadiusDistanceConstraint
+_OBJC_IVAR_$_ZWZoomSlugViewController._longPressGesture
+_OBJC_IVAR_$_ZWZoomSlugViewController._panGesture
+_OBJC_IVAR_$_ZWZoomSlugViewController._singleTapGesture
+_OBJC_IVAR_$_ZWZoomSlugViewController._doubleTapGesture
+_OBJC_IVAR_$_ZWZoomSlugViewController._inUserRepositioningMode
+_OBJC_IVAR_$_ZWZoomSlugViewController._displayLinkTimer
+_OBJC_IVAR_$_ZWZoomSlugViewController._automovingLens
+_OBJC_IVAR_$_ZWZoomSlugViewController._currentOffsetAngle
+_OBJC_IVAR_$_ZWZoomSlugViewController._deltaFromInitialTouch
+_OBJC_IVAR_$_ZWZoomSlugViewController._deltaFramLastPanEvent
+_OBJC_IVAR_$_ZWZoomSlugViewController._idleSlugOpacity
+_OBJC_IVAR_$_ZWZoomSlugViewController._dimTimer
+_OBJC_IVAR_$_ZWZoomSlugViewController._lastUnhiddenTime
+__MergedGlobals
+__MergedGlobals
+_ZWZoomItemObserverContextID
+__MergedGlobals
+_LocString
+_OBJC_CLASS_$_ZOTEvent
+_OBJC_CLASS_$_ZOTFullscreenEventHandler
+_OBJC_CLASS_$_ZWAlertManager
+_OBJC_CLASS_$_ZWCoalescedSettings
+_OBJC_CLASS_$_ZWEventProcessor
+_OBJC_CLASS_$_ZWKeyboardContext
+_OBJC_CLASS_$_ZWLensChromeGrabberView
+_OBJC_CLASS_$_ZWLensChromeView
+_OBJC_CLASS_$_ZWLensRootView
+_OBJC_CLASS_$_ZWLensZoomView
+_OBJC_CLASS_$_ZWMenuItemSimpleButtonTableViewCell
+_OBJC_CLASS_$_ZWMenuItemZoomLevelSliderTableViewCell
+_OBJC_CLASS_$_ZWMenuLensEffectChooserViewController
+_OBJC_CLASS_$_ZWMenuPopoverController
+_OBJC_CLASS_$_ZWMenuViewController
+_OBJC_CLASS_$_ZWRootViewController
+_OBJC_CLASS_$_ZWSlugBackgroundView
+_OBJC_CLASS_$_ZWSlugCirclePivotingView
+_OBJC_CLASS_$_ZWSlugCollapsingRingView
+_OBJC_CLASS_$_ZWSlugTriangleView
+_OBJC_CLASS_$_ZWUIServer
+_OBJC_CLASS_$_ZWZoomFullscreenLensViewController
+_OBJC_CLASS_$_ZWZoomLensViewController
+_OBJC_CLASS_$_ZWZoomPIPLensViewController
+_OBJC_CLASS_$_ZWZoomSlugViewController
+_OBJC_CLASS_$_ZWZoomViewController
+_OBJC_METACLASS_$_ZOTEvent
+_OBJC_METACLASS_$_ZOTFullscreenEventHandler
+_OBJC_METACLASS_$_ZWAlertManager
+_OBJC_METACLASS_$_ZWCoalescedSettings
+_OBJC_METACLASS_$_ZWEventProcessor
+_OBJC_METACLASS_$_ZWKeyboardContext
+_OBJC_METACLASS_$_ZWLensChromeGrabberView
+_OBJC_METACLASS_$_ZWLensChromeView
+_OBJC_METACLASS_$_ZWLensRootView
+_OBJC_METACLASS_$_ZWLensZoomView
+_OBJC_METACLASS_$_ZWMenuItemSimpleButtonTableViewCell
+_OBJC_METACLASS_$_ZWMenuItemZoomLevelSliderTableViewCell
+_OBJC_METACLASS_$_ZWMenuLensEffectChooserViewController
+_OBJC_METACLASS_$_ZWMenuPopoverController
+_OBJC_METACLASS_$_ZWMenuViewController
+_OBJC_METACLASS_$_ZWRootViewController
+_OBJC_METACLASS_$_ZWSlugBackgroundView
+_OBJC_METACLASS_$_ZWSlugCirclePivotingView
+_OBJC_METACLASS_$_ZWSlugCollapsingRingView
+_OBJC_METACLASS_$_ZWSlugTriangleView
+_OBJC_METACLASS_$_ZWUIServer
+_OBJC_METACLASS_$_ZWZoomFullscreenLensViewController
+_OBJC_METACLASS_$_ZWZoomLensViewController
+_OBJC_METACLASS_$_ZWZoomPIPLensViewController
+_OBJC_METACLASS_$_ZWZoomSlugViewController
+_OBJC_METACLASS_$_ZWZoomViewController
+_UIAXZoomFocusChangedNotification
+_ZOTAlignDistanceAlongAngle
+_ZOTCalculateDistanceForAngle
+_ZOTConvertVectorToScreenStandard
+_ZOTDenormalizePoint
+_ZOTDenormalizeValue
+_ZOTDeviceOrientation
+_ZOTDispatchEventThread
+_ZOTDispatchEventThreadWithDelay
+_ZOTDistanceForTimeAndVelocityWithMaxDistance
+_ZOTFlipDenormalizedPoint
+_ZOTGutterDistance
+_ZOTInitializeUtilities
+_ZOTIsWildcat
+_ZOTMainScreenScaleFactor
+_ZOTNormalizePoint
+_ZOTNormalizeValue
+_ZOTNormalizeVelocity
+_ZOTNotGutterFrame
+_ZOTRotatedZoomFrameToOrientation
+_ZOTScreenRegionForPoint
+_ZOTScreenRegionForRelativePushPan
+_ZOTShouldStartAutopan
+_ZOTSystemBootTime
+_ZOTTimeSinceBoot
+_ZOTUpdateDeviceOrientation
+_ZWCirclePivotFingerDownRadius
+_ZWCirclePivotInactiveRadius
+_ZWCirclePivotMaxOffsetRadius
+_ZWCollapsingRingFingerDownRadius
+_ZWCollapsingRingFingerDragRadius
+_ZWCollapsingRingInactiveRadius
+_ZWConvertPointInScreenPixelsToScreenCoordinates
+_ZWConvertPointInScreenPixelsToViewCoordinates
+_ZWDefaultFadeAnimationDuration
+_ZWDefaultZoomAnimationDuration
+_ZWEnableLensEyeCandy
+_ZWInnerLensBorderForBounds
+_ZWLensChromeGrabberLength
+_ZWLensChromeGrabberWidth
+_ZWLensCornerRadius
+_ZWLensInnerBorderWidth
+_ZWLensInnerColor
+_ZWLensOuterBorderWidth
+_ZWLensOuterColor
+_ZWLensResizeHandleRadius
+_ZWLocString
+_ZWMaxSlugMaxRadius
+_ZWMenuButtonSelectedColor
+_ZWMenuItemCellReuseIDLensEffectButton
+_ZWMenuItemCellReuseIDSimpleButton
+_ZWMenuItemCellReuseIDZoomLevelSlider
+_ZWOuterLensBorderForBounds
+_ZWResizeGrabberPath
+_ZWSlugDefaultRingColor
+_ZWSlugRepositioningRingColor
+_ZWSlugTriangleBase
+_ZWSlugTriangleHeight
+_ZWTriangleFingerDownRadius
+_ZWTriangleFingerDragRadius
+_ZWTriangleInactiveRadius
+_ZWUseVibrantBlendModes
+_ZWZoomLensBorderThicknessForTouches
+_kZOTContinueUsingZoomInApp
+_kZOTDisableZoomEventsForApp
+_AXAssertionTypeDisableSystemGestures
+_AXDeviceIsPad
+_AXDeviceIsPhone
+_AXIsInternalInstall
+_AXLogShouldLogWithLevelAndFacility
+_AXNormalizePoint
+_AXPerformBlockOnMainThreadAfterDelay
+_AXPerformSafeBlock
+_AXProcessIsAXUIServer
+_AXResistAllCompressingAndStretching
+_AXUILocalizedTitleForZoomLensEffect
+_AXZoomAllLensEffects
+_AXZoomDefaultZoomLevel
+_AXZoomLensEffectBlackAndWhite
+_AXZoomLensEffectBlackAndWhiteInverted
+_AXZoomLensEffectHueAdjust
+_AXZoomLensEffectInvertColors
+_AXZoomLensEffectLowLight
+_AXZoomLensEffectNone
+_AXZoomLensModeFullscreen
+_AXZoomLensModeWindow
+_AXZoomMaximumZoomLevel
+_AXZoomMinimumZoomLevel
+_AXZoomUserSelectableLensModes
+_AX_CGRectBySubtractingRect
+_AX_CGRectGetCenter
+_BKSHIDServicesCancelTouchesOnMainDisplay
+_CATransform3DIdentity
+_CATransform3DScale
+_CATransform3DTranslate
+_CFAbsoluteTimeGetCurrent
+_CFNotificationCenterAddObserver
+_CFNotificationCenterGetDarwinNotifyCenter
+_CFNotificationCenterRemoveObserver
+_CFRelease
+_CGAffineTransformIdentity
+_CGAffineTransformRotate
+_CGAffineTransformTranslate
+_CGPointZero
+_CGRectContainsPoint
+_CGRectContainsRect
+_CGRectEqualToRect
+_CGRectGetMaxX
+_CGRectGetMaxY
+_CGRectGetMidX
+_CGRectGetMidY
+_CGRectGetMinX
+_CGRectGetMinY
+_CGRectInset
+_CGRectIsEmpty
+_CGRectIsNull
+_CGRectNull
+_CGRectZero
+_CGSizeZero
+_GSMainScreenOrientation
+_GSMainScreenScaleFactor
+_NSClassFromString
+_NSRectFromString
+_NSRequestConcreteImplementation
+_NSRunLoopCommonModes
+_NSStringFromCGRect
+_OBJC_CLASS_$_AXAccessQueue
+_OBJC_CLASS_$_AXAssertion
+_OBJC_CLASS_$_AXBackBoardServer
+_OBJC_CLASS_$_AXEventProcessor
+_OBJC_CLASS_$_AXEventTapManager
+_OBJC_CLASS_$_AXSettings
+_OBJC_CLASS_$_AXSpringBoardServer
+_OBJC_CLASS_$_AXSubsystemZoom
+_OBJC_CLASS_$_AXThreadTimer
+_OBJC_CLASS_$_AXTimer
+_OBJC_CLASS_$_AXUIClientMessenger
+_OBJC_CLASS_$_AXUIDisplayManager
+_OBJC_CLASS_$_AXVoiceOverServer
+_OBJC_CLASS_$_CABackdropLayer
+_OBJC_CLASS_$_CABasicAnimation
+_OBJC_CLASS_$_CADisplayLink
+_OBJC_CLASS_$_CAFilter
+_OBJC_CLASS_$_CALayer
+_OBJC_CLASS_$_CAReplicatorLayer
+_OBJC_CLASS_$_CAShapeLayer
+_OBJC_CLASS_$_CATransaction
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSIndexPath
+_OBJC_CLASS_$_NSLayoutConstraint
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_SCRCGestureEvent
+_OBJC_CLASS_$_UIAccessibilityElement
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_UIBezierPath
+_OBJC_CLASS_$_UIBlurEffect
+_OBJC_CLASS_$_UIColor
+_OBJC_CLASS_$_UIDevice
+_OBJC_CLASS_$_UIImage
+_OBJC_CLASS_$_UIImageView
+_OBJC_CLASS_$_UILongPressGestureRecognizer
+_OBJC_CLASS_$_UINavigationController
+_OBJC_CLASS_$_UIPanGestureRecognizer
+_OBJC_CLASS_$_UIPopoverController
+_OBJC_CLASS_$_UIPopoverPresentationController
+_OBJC_CLASS_$_UIScreen
+_OBJC_CLASS_$_UIScrollView
+_OBJC_CLASS_$_UISlider
+_OBJC_CLASS_$_UITableView
+_OBJC_CLASS_$_UITableViewCell
+_OBJC_CLASS_$_UITapGestureRecognizer
+_OBJC_CLASS_$_UIVibrancyEffect
+_OBJC_CLASS_$_UIView
+_OBJC_CLASS_$_UIViewController
+_OBJC_METACLASS_$_AXEventProcessor
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_SCRCGestureEvent
+_OBJC_METACLASS_$_UIPopoverController
+_OBJC_METACLASS_$_UITableViewCell
+_OBJC_METACLASS_$_UIView
+_OBJC_METACLASS_$_UIViewController
+_SCRCMathClearAverage
+_SCRCMathGetAverage
+_SCRCMathGetDistanceBetweenPoints
+_SCRCMathGetVectorAndDistanceForPoints
+_SCRCMathUpdateAverage
+_UIAccessibilityConvertFrameToScreenCoordinates
+_UIAccessibilityInvertColorsStatusDidChangeNotification
+_UIAccessibilityIsInvertColorsEnabled
+_UIAccessibilityIsReduceTransparencyEnabled
+_UIAccessibilityIsVoiceOverRunning
+_UIAccessibilityLayoutChangedNotification
+_UIAccessibilityPostNotification
+_UIAccessibilityScreenChangedNotification
+_UIAccessibilityTraitButton
+_UIAccessibilityTraitTouchContainer
+_UIAccessibilityVoiceOverStatusChanged
+_UIEdgeInsetsZero
+_UILayoutFittingExpandedSize
+_UIRectInset
+_UIWindowLevelNormal
+_ZOTDeviceRotation
+_ZOTMainScreenRect
+_ZOTMainScreenSize
+_ZOTRotateFromScreen
+_ZOTTimeUnset
+__AXLogWithFacility
+__AXSAssistiveTouchScannerEnabled
+__AXSVoiceOverTouchEnabled
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__NSDictionaryOfVariableBindings
+__Unwind_SjLj_Register
+__Unwind_SjLj_Resume
+__Unwind_SjLj_Unregister
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__objc_empty_cache
+_abort
+_atan2
+_dispatch_async
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_sync
+_exp
+_kCAFilterColorHueRotate
+_kCAFilterColorInvert
+_kCAFilterColorSaturate
+_kCAFilterDarkenBlendMode
+_kCAFilterPlusD
+_kCAFilterPlusL
+_kCALineJoinBevel
+_objc_autoreleaseReturnValue
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_nonatomic
+_objc_storeStrong
+_objc_storeWeak
+_pow
+_sysctl
+dyld_stub_binder

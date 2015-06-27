@@ -1,0 +1,2 @@
+_getMetalTimeStamp
+dyld_stub_binder

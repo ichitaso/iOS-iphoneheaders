@@ -1,0 +1,9 @@
+#import <TextToSpeech/TTSSpeechVoice.h>
+#import <TextToSpeech/TTSAudioSession.h>
+#import <TextToSpeech/TTSVoiceAssetManager.h>
+#import <TextToSpeech/TTSFormatArgument.h>
+#import <TextToSpeech/TTSSpeechChannel.h>
+#import <TextToSpeech/TTSSpeechRequest.h>
+#import <TextToSpeech/TTSSpeechSynthesizer.h>
+#import <TextToSpeech/TTSSpeechRequestOwner.h>
+#import <TextToSpeech/TTSVoiceAsset.h>

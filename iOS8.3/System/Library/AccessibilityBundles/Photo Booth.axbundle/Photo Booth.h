@@ -1,0 +1,9 @@
+#import <Photo Booth/AXPhotoBoothGlue.h>
+#import <Photo Booth/__PBControllerAccessibility_super.h>
+#import <Photo Booth/PBControllerAccessibility.h>
+#import <Photo Booth/__PBShelfTileAccessibility_super.h>
+#import <Photo Booth/PBShelfTileAccessibility.h>
+#import <Photo Booth/__PBEffectsViewAccessibility_super.h>
+#import <Photo Booth/PBEffectsViewAccessibility.h>
+#import <Photo Booth/__PBContainerViewAccessibility_super.h>
+#import <Photo Booth/PBContainerViewAccessibility.h>

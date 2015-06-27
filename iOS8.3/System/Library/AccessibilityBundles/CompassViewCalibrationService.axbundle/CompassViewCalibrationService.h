@@ -1,0 +1,5 @@
+#import <CompassViewCalibrationService/__CalibrationViewControllerAccessibility_super.h>
+#import <CompassViewCalibrationService/CalibrationViewControllerAccessibility.h>
+#import <CompassViewCalibrationService/__CalibrationViewServiceControllerAccessibility_super.h>
+#import <CompassViewCalibrationService/CalibrationViewServiceControllerAccessibility.h>
+#import <CompassViewCalibrationService/AXCompassViewCalibrationServiceGlue.h>

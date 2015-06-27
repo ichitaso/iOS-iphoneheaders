@@ -1,0 +1,9 @@
+#import <AVKit/__AVVideoLayerViewAccessibility_super.h>
+#import <AVKit/AVVideoLayerViewAccessibility.h>
+#import <AVKit/AXAVKitGlue.h>
+#import <AVKit/__AVPlayerViewControllerAccessibility_super.h>
+#import <AVKit/AVPlayerViewControllerAccessibility.h>
+#import <AVKit/__AVFullScreenPlaybackControlsViewControllerAccessibility_super.h>
+#import <AVKit/AVFullScreenPlaybackControlsViewControllerAccessibility.h>
+#import <AVKit/__AVTouchIgnoringViewAccessibility_super.h>
+#import <AVKit/AVTouchIgnoringViewAccessibility.h>

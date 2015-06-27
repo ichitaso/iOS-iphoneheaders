@@ -1,0 +1,7 @@
+_OBJC_CLASS_$_TIKeyboardInputManager_emoji
+_OBJC_METACLASS_$_TIKeyboardInputManager_emoji
+_OBJC_CLASS_$_TIKeyboardInputManagerBase
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_TIKeyboardInputManagerBase
+__objc_empty_cache
+dyld_stub_binder

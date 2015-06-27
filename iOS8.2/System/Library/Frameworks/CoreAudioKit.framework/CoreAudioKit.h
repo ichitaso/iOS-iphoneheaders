@@ -1,0 +1,16 @@
+#import <CoreAudioKit/CABTMIDICentralDetailViewController.h>
+#import <CoreAudioKit/BLEMIDIAccessor.h>
+#import <CoreAudioKit/AMSBTLEAdvertisementManager.h>
+#import <CoreAudioKit/CAInterAppAudioTransportView.h>
+#import <CoreAudioKit/CAInterAppAudioSwitcherView.h>
+#import <CoreAudioKit/CAUITransportButton.h>
+#import <CoreAudioKit/CATimerManager.h>
+#import <CoreAudioKit/CABTMIDILocalPeripheralViewController.h>
+#import <CoreAudioKit/CACentralTableViewCell.h>
+#import <CoreAudioKit/CABTMIDICentralViewController.h>
+#import <CoreAudioKit/CAIAANodeContainer.h>
+#import <CoreAudioKit/AMSBTLEConnectionManager.h>
+#import <CoreAudioKit/AMSBTLEPeripheral.h>
+#import <CoreAudioKit/CABTMIDIPeripheralNameViewController.h>
+#import <CoreAudioKit/CANodeButton.h>
+#import <CoreAudioKit/CAIAANodeInfo.h>

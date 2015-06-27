@@ -1,0 +1,75 @@
++[SCNNodeAccessibility(SafeCategory) safeCategoryTargetClassName]
++[SCNNodeAccessibility(SafeCategory) safeCategoryTargetClass]
++[SCNNodeAccessibility _accessibilityPerformValidations:]
+-[SCNNodeAccessibility dealloc]
+-[SCNNodeAccessibility accessibilityElements]
+-[SCNNodeAccessibility accessibilityContainer]
+-[SCNNodeAccessibility _accessibilityConvertRect:toNode:]
+-[SCNNodeAccessibility _accessibilityInvertedSpriteKitNodeFrame]
+-[SCNNodeAccessibility accessibilityPath]
+-[SCNNodeAccessibility isAccessibilityElement]
+-[SCNNodeAccessibility accessibilityFrame]
+-[SCNNodeAccessibility accessibilityIdentifier]
++[AXSceneKitGlue accessibilityBundles]
++[AXSceneKitGlue accessibilityInitializeBundle]
+___47+[AXSceneKitGlue accessibilityInitializeBundle]_block_invoke
+___47+[AXSceneKitGlue accessibilityInitializeBundle]_block_invoke_2
+___47+[AXSceneKitGlue accessibilityInitializeBundle]_block_invoke_3
++[SCNViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++[SCNViewAccessibility(SafeCategory) safeCategoryTargetClass]
++[SCNViewAccessibility _accessibilityPerformValidations:]
+-[SCNViewAccessibility _accessibilitySceneKitScene]
+-[SCNViewAccessibility accessibilityElements]
++[SCNSceneAccessibility(SafeCategory) safeCategoryTargetClassName]
++[SCNSceneAccessibility(SafeCategory) safeCategoryTargetClass]
++[SCNSceneAccessibility _accessibilityPerformValidations:]
+-[SCNSceneAccessibility dealloc]
+-[SCNSceneAccessibility accessibilityElements]
+-[SCNSceneAccessibility accessibilityContainer]
+-[SCNSceneAccessibility accessibilityFrame]
+_objc_msgSend$shim
+_AXPerformValidationChecks$shim
+ stub helpers
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp10
+___block_literal_global11
+___block_descriptor_tmp21
+___block_literal_global22
+_OBJC_CLASS_$_AXSceneKitGlue
+_OBJC_CLASS_$_SCNNodeAccessibility
+_OBJC_CLASS_$_SCNSceneAccessibility
+_OBJC_CLASS_$_SCNViewAccessibility
+_OBJC_CLASS_$___SCNNodeAccessibility_super
+_OBJC_CLASS_$___SCNSceneAccessibility_super
+_OBJC_CLASS_$___SCNViewAccessibility_super
+_OBJC_METACLASS_$_AXSceneKitGlue
+_OBJC_METACLASS_$_SCNNodeAccessibility
+_OBJC_METACLASS_$_SCNSceneAccessibility
+_OBJC_METACLASS_$_SCNViewAccessibility
+_OBJC_METACLASS_$___SCNNodeAccessibility_super
+_OBJC_METACLASS_$___SCNSceneAccessibility_super
+_OBJC_METACLASS_$___SCNViewAccessibility_super
+__Failover
+_accessibilityLocalizedString
+_AXPerformValidationChecks
+_OBJC_CLASS_$_AXValidationManager
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_SCNView
+_OBJC_CLASS_$_UIAccessibilitySafeCategory
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_UIAccessibilitySafeCategory
+_UIAccessibilityConvertFrameToScreenCoordinates
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+___UIAccessibilitySafeClass
+__objc_empty_cache
+_abort
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+dyld_stub_binder

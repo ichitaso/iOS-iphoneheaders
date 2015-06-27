@@ -1,0 +1,12 @@
+#import <CoreRecognition/CRAlignmentLayer.h>
+#import <CoreRecognition/CRCameraReaderOutputInternal.h>
+#import <CoreRecognition/CRCameraReaderOutput.h>
+#import <CoreRecognition/CRCameraReaderOutputExpirationDate.h>
+#import <CoreRecognition/CRCameraReader.h>
+#import <CoreRecognition/FKTextFeature.h>
+#import <CoreRecognition/FKTextDetector.h>
+#import <CoreRecognition/CRCodeRedeemerController.h>
+#import <CoreRecognition/CRColor.h>
+#import <CoreRecognition/CRCaptureSessionManager.h>
+#import <CoreRecognition/DiagnosticHUDLayer.h>
+#import <CoreRecognition/CRBoxLayer.h>

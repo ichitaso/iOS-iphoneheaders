@@ -1,0 +1,9 @@
+#import <CoreDuet/CDDevice.h>
+#import <CoreDuet/CDTrendLogic.h>
+#import <CoreDuet/CDTrigger.h>
+#import <CoreDuet/CDSession.h>
+#import <CoreDuet/_CDDailyProgressForecast.h>
+#import <CoreDuet/_CDDailyProgressForecastQuery.h>
+#import <CoreDuet/CDAttributeOccurrence.h>
+#import <CoreDuet/CDAttribute.h>
+#import <CoreDuet/CDBudget.h>

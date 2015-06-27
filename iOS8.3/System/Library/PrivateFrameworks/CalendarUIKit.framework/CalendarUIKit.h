@@ -1,0 +1,17 @@
+#import <CalendarUIKit/CUIKUserActivity.h>
+#import <CalendarUIKit/CUIKUserActivityWithSource.h>
+#import <CalendarUIKit/CUIKUserActivityCalendarDate.h>
+#import <CalendarUIKit/CUIKUserActivityCalendarEvent.h>
+#import <CalendarUIKit/CUIKSingleDayTimelineLayout.h>
+#import <CalendarUIKit/CUIKSingleDayTimelineOccurrenceBucket.h>
+#import <CalendarUIKit/CUIKSingleDayTimelineLayoutPartition.h>
+#import <CalendarUIKit/CUIKAttendeeDescriptionGenerator.h>
+#import <CalendarUIKit/CUIKRecurrenceRuleDescriptionGenerator.h>
+#import <CalendarUIKit/CUIKEventHeuristics.h>
+#import <CalendarUIKit/CUIKEventDescriptionGenerator.h>
+#import <CalendarUIKit/CUIKAttendeeHeuristics.h>
+#import <CalendarUIKit/CUIKDateStrings.h>
+#import <CalendarUIKit/CUIKUserActivityRemindersListCategory.h>
+#import <CalendarUIKit/CUIKUserActivityRemindersListScheduled.h>
+#import <CalendarUIKit/CUIKUserActivityRemindersListDate.h>
+#import <CalendarUIKit/CUIKUserActivityRemindersListSharedInvitation.h>

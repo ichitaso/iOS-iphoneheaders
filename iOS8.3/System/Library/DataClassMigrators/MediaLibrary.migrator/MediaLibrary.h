@@ -1,0 +1,1 @@
+#import <MediaLibrary/MLMMediaLibraryMigrator.h>

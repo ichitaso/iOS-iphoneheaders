@@ -1,0 +1,14 @@
+radr://5614542
+_IUInternationalSupportMigratorVersionNumber
+_IUInternationalSupportMigratorVersionString
+_OBJC_CLASS_$_InternationalMigrator
+_OBJC_METACLASS_$_InternationalMigrator
+_OBJC_CLASS_$_DataClassMigrator
+_OBJC_CLASS_$_IntlUtility
+_OBJC_METACLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+_objc_retainAutorelease
+dyld_stub_binder

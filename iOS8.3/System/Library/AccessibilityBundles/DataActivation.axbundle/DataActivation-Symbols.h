@@ -1,0 +1,18 @@
++[AXDataActivation accessibilityInitializeBundle]
+-[UIApplication(PhotoBoothCategory) _accessibilityAllowsNotificationsDuringSuspension]
+-[UIApplication(PhotoBoothCategory) accessibilityLabel]
+ stub helpers
+__MergedGlobals
+_OBJC_CLASS_$_AXDataActivation
+_OBJC_METACLASS_$_AXDataActivation
+_UITextInputNextToUseInputModeDidChangeKey
+_UITextInputNextToUseInputModeDidChangeNotification
+_accessibilityLocalizedString
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_UIApplication
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

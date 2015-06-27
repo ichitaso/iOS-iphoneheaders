@@ -1,0 +1,17 @@
+#import <SocialFramework/AXSocialFrameworkGlue.h>
+#import <SocialFramework/__SLMicroBlogComposeViewControllerAccessibility_super.h>
+#import <SocialFramework/SLMicroBlogComposeViewControllerAccessibility.h>
+#import <SocialFramework/__SLUIButtonAccessibility_super.h>
+#import <SocialFramework/SLUIButtonAccessibility.h>
+#import <SocialFramework/__SLComposeServiceViewControllerAccessibility_super.h>
+#import <SocialFramework/SLComposeServiceViewControllerAccessibility.h>
+#import <SocialFramework/__SLFacebookComposeViewControllerAccessibility_super.h>
+#import <SocialFramework/SLFacebookComposeViewControllerAccessibility.h>
+#import <SocialFramework/__SLFacebookLoginInfoViewControllerAccessibility_super.h>
+#import <SocialFramework/SLFacebookLoginInfoViewControllerAccessibility.h>
+#import <SocialFramework/__SLUITableViewAccessibility_super.h>
+#import <SocialFramework/SLUITableViewAccessibility.h>
+#import <SocialFramework/__SLUITextViewAccessibility_super.h>
+#import <SocialFramework/SLUITextViewAccessibility.h>
+#import <SocialFramework/__SLSheetTextComposeViewAccessibility_super.h>
+#import <SocialFramework/SLSheetTextComposeViewAccessibility.h>

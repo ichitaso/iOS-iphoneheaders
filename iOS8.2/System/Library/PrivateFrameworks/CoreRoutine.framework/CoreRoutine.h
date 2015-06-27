@@ -1,0 +1,16 @@
+#import <CoreRoutine/RTPLOIETA.h>
+#import <CoreRoutine/RTSource.h>
+#import <CoreRoutine/RTPredictedLocationOfInterest.h>
+#import <CoreRoutine/RTAction.h>
+#import <CoreRoutine/RTRoutineManagerExportedObject.h>
+#import <CoreRoutine/RTRoutineManager.h>
+#import <CoreRoutine/RTLOIDisplayInfo.h>
+#import <CoreRoutine/RTActionCondition.h>
+#import <CoreRoutine/RTSourceCoreRoutine.h>
+#import <CoreRoutine/RTGeocoder.h>
+#import <CoreRoutine/_RTBatchSliceGeocoder.h>
+#import <CoreRoutine/RTBatchGeocoder.h>
+#import <CoreRoutine/RTLocationOfInterestVisit.h>
+#import <CoreRoutine/RTLocationOfInterest.h>
+#import <CoreRoutine/RTRoute.h>
+#import <CoreRoutine/RTSourceEventKit.h>

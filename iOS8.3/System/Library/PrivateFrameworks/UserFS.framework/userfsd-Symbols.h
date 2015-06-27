@@ -1,0 +1,456 @@
+/SourceCache/UserFS/UserFS-8/userfsd/
+main.m
+/BinaryCache/UserFS/UserFS-8~648/Objects/UserFS.build/userfsd.build/Objects-normal/armv7/main.o
+_device_name
+_device_fd
+_cache_get_buffer
+_cache_release_buffer
+_cache_flush_buffer
+_cache_flush
+_cache_invalidate
+_buffer_bytes
+_buffer_offset
+_buffer_size
+_buffer_resize
+_buffer_mark_dirty
+-[UserFSDevice init]
+-[UserFSDevice suspendTimer]
+-[UserFSDevice resumeTimer]
+___27-[UserFSDevice resumeTimer]_block_invoke
+___27-[UserFSDevice resumeTimer]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_10
+___destroy_helper_block_11
+-[UserFSDevice cancelTimer]
+-[UserFSDevice openVolume]
+_userfs_open
+_DeviceNotification
+-[UserFSDevice flushVolume]
+-[UserFSDevice closeVolume]
+-[UserFSDevice terminate]
+-[UserFSDevice dealloc]
+-[UserFSDevice setNumberOfClients:]
+-[UserFSDevice isVolumeLocked]
+-[UserFSDevice getInfo:atPath:]
+-[UserFSDevice enumerateChildren:atPath:withState:]
+-[UserFSDevice deleteItemAtPath:]
+-[UserFSDevice openStream:atPath:]
+-[UserFSDevice streamLength:]
+-[UserFSDevice readStream:atOffset:toBuffer:ofLength:]
+-[UserFSDevice closeStream:]
+-[UserFSDevice streamName:]
+-[UserFSDevice name]
+-[UserFSDevice setName:]
+-[UserFSDevice cache]
+-[UserFSDevice setCache:]
+-[UserFSDevice volume]
+-[UserFSDevice setVolume:]
+-[UserFSDevice queue]
+-[UserFSDevice setQueue:]
+-[UserFSDevice timer]
+-[UserFSDevice setTimer:]
+-[UserFSDevice listener]
+-[UserFSDevice setListener:]
+-[UserFSDevice numberOfClients]
+-[UserFSDevice fd]
+-[UserFSDevice setFd:]
+-[UserFSDevice notification]
+-[UserFSDevice setNotification:]
+-[UserFSDevice plugin_dll_handle]
+-[UserFSDevice setPlugin_dll_handle:]
+-[UserFSDevice ops]
+-[UserFSDevice setOps:]
+-[UserFSDevice .cxx_destruct]
+_main
+___main_block_invoke
+___main_block_invoke_2
+___main_block_invoke_3
+___copy_helper_block_174
+___destroy_helper_block_175
+___userfs_message_block_invoke
+___userfs_message_block_invoke_2
+___copy_helper_block_208
+___destroy_helper_block_209
+___copy_helper_block_211
+___destroy_helper_block_212
+___volume_message_block_invoke
+___copy_helper_block_240
+___destroy_helper_block_241
+___do_open_stream_block_invoke
+___do_open_stream_block_invoke_2
+___copy_helper_block_257
+___destroy_helper_block_258
+___copy_helper_block_260
+___destroy_helper_block_261
+___DeviceNotification_block_invoke
+___DeviceNotification_block_invoke_2
+___copy_helper_block_286
+___destroy_helper_block_287
+___copy_helper_block_289
+___destroy_helper_block_290
+___userfs_open_block_invoke
+GCC_except_table68
+___block_descriptor_tmp
+___block_descriptor_tmp12
+___block_descriptor_tmp176
+___block_descriptor_tmp186
+___block_descriptor_tmp187
+___block_literal_global
+___block_descriptor_tmp210
+___block_descriptor_tmp213
+___block_descriptor_tmp243
+___block_descriptor_tmp259
+___block_descriptor_tmp262
+___block_descriptor_tmp288
+___block_descriptor_tmp291
+___block_descriptor_tmp296
+___block_literal_global297
+_OBJC_IVAR_$_UserFSDevice._name
+_OBJC_IVAR_$_UserFSDevice._cache
+_OBJC_IVAR_$_UserFSDevice._volume
+_OBJC_IVAR_$_UserFSDevice._queue
+_OBJC_IVAR_$_UserFSDevice._timer
+_OBJC_IVAR_$_UserFSDevice._listener
+_OBJC_IVAR_$_UserFSDevice._numberOfClients
+_OBJC_IVAR_$_UserFSDevice._fd
+_OBJC_IVAR_$_UserFSDevice._plugin_dll_handle
+_OBJC_IVAR_$_UserFSDevice._ops
+_OBJC_IVAR_$_UserFSDevice._notification
+_OBJC_CLASS_$_UserFSDevice
+_OBJC_METACLASS_$_UserFSDevice
+_callbacks
+_deviceMap
+_deviceQueue
+_gNotifyPort
+/SourceCache/UserFS/UserFS-8/userfsd/
+UserFSBufferCache.m
+/BinaryCache/UserFS/UserFS-8~648/Objects/UserFS.build/userfsd.build/Objects-normal/armv7/UserFSBufferCache.o
+-[UserFSBuffer _readBlockContents]
+-[UserFSBuffer _writeBlockContents]
+-[UserFSBuffer initWithOffset:length:fileDescriptor:]
+-[UserFSBuffer dealloc]
+-[UserFSBuffer resizeToLength:]
+-[UserFSBuffer beginContentAccess]
+-[UserFSBuffer endContentAccess]
+-[UserFSBuffer isContentDiscarded]
+-[UserFSBuffer discardContentIfPossible]
+-[UserFSBuffer offset]
+/SourceCache/UserFS/UserFS-8/userfsd/UserFSBufferCache.h
+-[UserFSBuffer length]
+-[UserFSBuffer buffer]
+-[UserFSBuffer dirty]
+-[UserFSBuffer setDirty:]
+-[UserFSBufferCache initWithFileDescriptor:]
+-[UserFSBufferCache getBufferAtOffset:ofLength:error:]
+-[UserFSBufferCache flushBuffer:]
+-[UserFSBufferCache releaseBuffer:]
+-[UserFSBufferCache flushAndReturnError]
+___40-[UserFSBufferCache flushAndReturnError]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[UserFSBufferCache invalidateAllBuffers]
+-[UserFSBufferCache cache:willEvictObject:]
+-[UserFSBufferCache .cxx_destruct]
+GCC_except_table18
+___block_descriptor_tmp
+_OBJC_IVAR_$_UserFSBuffer._fd
+_OBJC_IVAR_$_UserFSBuffer._offset
+_OBJC_IVAR_$_UserFSBuffer._length
+_OBJC_IVAR_$_UserFSBuffer._busyCount
+_OBJC_IVAR_$_UserFSBuffer._dirty
+_OBJC_IVAR_$_UserFSBuffer._allocatedSize
+_OBJC_IVAR_$_UserFSBuffer._buffer
+_OBJC_IVAR_$_UserFSBufferCache._cache
+_OBJC_IVAR_$_UserFSBufferCache._dirtyBuffers
+_OBJC_IVAR_$_UserFSBufferCache._fd
+_OBJC_CLASS_$_UserFSBuffer
+_OBJC_METACLASS_$_UserFSBuffer
+_OBJC_CLASS_$_UserFSBufferCache
+_OBJC_METACLASS_$_UserFSBufferCache
+_device_name
+_device_fd
+_cache_get_buffer
+_cache_release_buffer
+_cache_flush_buffer
+_cache_flush
+_cache_invalidate
+_buffer_bytes
+_buffer_offset
+_buffer_size
+_buffer_resize
+_buffer_mark_dirty
+-[UserFSDevice init]
+-[UserFSDevice suspendTimer]
+-[UserFSDevice resumeTimer]
+___27-[UserFSDevice resumeTimer]_block_invoke
+___27-[UserFSDevice resumeTimer]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_10
+___destroy_helper_block_11
+-[UserFSDevice cancelTimer]
+-[UserFSDevice openVolume]
+_userfs_open
+_DeviceNotification
+-[UserFSDevice flushVolume]
+-[UserFSDevice closeVolume]
+-[UserFSDevice terminate]
+-[UserFSDevice dealloc]
+-[UserFSDevice setNumberOfClients:]
+-[UserFSDevice isVolumeLocked]
+-[UserFSDevice getInfo:atPath:]
+-[UserFSDevice enumerateChildren:atPath:withState:]
+-[UserFSDevice deleteItemAtPath:]
+-[UserFSDevice openStream:atPath:]
+-[UserFSDevice streamLength:]
+-[UserFSDevice readStream:atOffset:toBuffer:ofLength:]
+-[UserFSDevice closeStream:]
+-[UserFSDevice streamName:]
+-[UserFSDevice name]
+-[UserFSDevice setName:]
+-[UserFSDevice cache]
+-[UserFSDevice setCache:]
+-[UserFSDevice volume]
+-[UserFSDevice setVolume:]
+-[UserFSDevice queue]
+-[UserFSDevice setQueue:]
+-[UserFSDevice timer]
+-[UserFSDevice setTimer:]
+-[UserFSDevice listener]
+-[UserFSDevice setListener:]
+-[UserFSDevice numberOfClients]
+-[UserFSDevice fd]
+-[UserFSDevice setFd:]
+-[UserFSDevice notification]
+-[UserFSDevice setNotification:]
+-[UserFSDevice plugin_dll_handle]
+-[UserFSDevice setPlugin_dll_handle:]
+-[UserFSDevice ops]
+-[UserFSDevice setOps:]
+-[UserFSDevice .cxx_destruct]
+_main
+___main_block_invoke
+___main_block_invoke_2
+___main_block_invoke_3
+___copy_helper_block_174
+___destroy_helper_block_175
+___userfs_message_block_invoke
+___userfs_message_block_invoke_2
+___copy_helper_block_208
+___destroy_helper_block_209
+___copy_helper_block_211
+___destroy_helper_block_212
+___volume_message_block_invoke
+___copy_helper_block_240
+___destroy_helper_block_241
+___do_open_stream_block_invoke
+___do_open_stream_block_invoke_2
+___copy_helper_block_257
+___destroy_helper_block_258
+___copy_helper_block_260
+___destroy_helper_block_261
+___DeviceNotification_block_invoke
+___DeviceNotification_block_invoke_2
+___copy_helper_block_286
+___destroy_helper_block_287
+___copy_helper_block_289
+___destroy_helper_block_290
+___userfs_open_block_invoke
+-[UserFSBuffer _readBlockContents]
+-[UserFSBuffer _writeBlockContents]
+-[UserFSBuffer initWithOffset:length:fileDescriptor:]
+-[UserFSBuffer dealloc]
+-[UserFSBuffer resizeToLength:]
+-[UserFSBuffer beginContentAccess]
+-[UserFSBuffer endContentAccess]
+-[UserFSBuffer isContentDiscarded]
+-[UserFSBuffer discardContentIfPossible]
+-[UserFSBuffer offset]
+-[UserFSBuffer length]
+-[UserFSBuffer buffer]
+-[UserFSBuffer dirty]
+-[UserFSBuffer setDirty:]
+-[UserFSBufferCache initWithFileDescriptor:]
+-[UserFSBufferCache getBufferAtOffset:ofLength:error:]
+-[UserFSBufferCache flushBuffer:]
+-[UserFSBufferCache releaseBuffer:]
+-[UserFSBufferCache flushAndReturnError]
+___40-[UserFSBufferCache flushAndReturnError]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[UserFSBufferCache invalidateAllBuffers]
+-[UserFSBufferCache cache:willEvictObject:]
+-[UserFSBufferCache .cxx_destruct]
+_objc_msgSend$shim
+_objc_release$shim
+_objc_retain$shim
+_objc_storeStrong$shim
+_objc_autoreleaseReturnValue$shim
+ stub helpers
+GCC_except_table68
+GCC_except_table18
+___block_descriptor_tmp
+___block_descriptor_tmp12
+___block_descriptor_tmp176
+___block_descriptor_tmp186
+___block_descriptor_tmp187
+___block_literal_global
+___block_descriptor_tmp210
+___block_descriptor_tmp213
+___block_descriptor_tmp243
+___block_descriptor_tmp259
+___block_descriptor_tmp262
+___block_descriptor_tmp288
+___block_descriptor_tmp291
+___block_descriptor_tmp296
+___block_literal_global297
+___block_descriptor_tmp
+_OBJC_IVAR_$_UserFSDevice._name
+_OBJC_IVAR_$_UserFSDevice._cache
+_OBJC_IVAR_$_UserFSDevice._volume
+_OBJC_IVAR_$_UserFSDevice._queue
+_OBJC_IVAR_$_UserFSDevice._timer
+_OBJC_IVAR_$_UserFSDevice._listener
+_OBJC_IVAR_$_UserFSDevice._numberOfClients
+_OBJC_IVAR_$_UserFSDevice._fd
+_OBJC_IVAR_$_UserFSDevice._plugin_dll_handle
+_OBJC_IVAR_$_UserFSDevice._ops
+_OBJC_IVAR_$_UserFSDevice._notification
+_OBJC_IVAR_$_UserFSBuffer._fd
+_OBJC_IVAR_$_UserFSBuffer._offset
+_OBJC_IVAR_$_UserFSBuffer._length
+_OBJC_IVAR_$_UserFSBuffer._busyCount
+_OBJC_IVAR_$_UserFSBuffer._dirty
+_OBJC_IVAR_$_UserFSBuffer._allocatedSize
+_OBJC_IVAR_$_UserFSBuffer._buffer
+_OBJC_IVAR_$_UserFSBufferCache._cache
+_OBJC_IVAR_$_UserFSBufferCache._dirtyBuffers
+_OBJC_IVAR_$_UserFSBufferCache._fd
+_OBJC_CLASS_$_UserFSDevice
+_OBJC_METACLASS_$_UserFSDevice
+_OBJC_CLASS_$_UserFSBuffer
+_OBJC_METACLASS_$_UserFSBuffer
+_OBJC_CLASS_$_UserFSBufferCache
+_OBJC_METACLASS_$_UserFSBufferCache
+_callbacks
+_deviceMap
+_deviceQueue
+_gNotifyPort
+__mh_execute_header
+_CFRunLoopAddSource
+_CFRunLoopGetCurrent
+_CFRunLoopRun
+_IOBSDNameMatching
+_IONotificationPortCreate
+_IONotificationPortGetRunLoopSource
+_IOObjectRelease
+_IOServiceAddInterestNotification
+_IOServiceGetMatchingService
+_OBJC_CLASS_$_NSCache
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_SjLj_Register
+__Unwind_SjLj_Resume
+__Unwind_SjLj_Unregister
+___CFConstantStringClassReference
+___assert_rtn
+___error
+___objc_personality_v0
+___snprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_data_destructor_vm_deallocate
+__dispatch_source_type_timer
+__objc_empty_cache
+__xpc_bool_true
+__xpc_error_connection_invalid
+__xpc_error_termination_imminent
+__xpc_type_array
+__xpc_type_connection
+__xpc_type_dictionary
+__xpc_type_error
+__xpc_type_string
+_asl_log
+_asl_set_filter
+_close
+_dispatch_async
+_dispatch_data_create
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_time
+_dlclose
+_dlerror
+_dlopen
+_dlsym
+_exit
+_free
+_fsync
+_ioctl
+_kCFRunLoopDefaultMode
+_kIOMasterPortDefault
+_mach_task_self_
+_malloc
+_memcmp
+_objc_autoreleaseReturnValue
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleasedReturnValue
+_objc_storeStrong
+_pread
+_pwrite
+_strcmp
+_strdup
+_vm_allocate
+_vm_deallocate
+_vm_page_size
+_vm_purgable_control
+_xpc_array_apply
+_xpc_array_create
+_xpc_connection_cancel
+_xpc_connection_copy_entitlement_value
+_xpc_connection_create
+_xpc_connection_create_mach_service
+_xpc_connection_get_pid
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_send_message_with_reply_sync
+_xpc_connection_set_event_handler
+_xpc_connection_set_target_queue
+_xpc_copy_description
+_xpc_data_create_with_dispatch_data
+_xpc_dictionary_create
+_xpc_dictionary_create_reply
+_xpc_dictionary_dup_fd
+_xpc_dictionary_get_int64
+_xpc_dictionary_get_remote_connection
+_xpc_dictionary_get_string
+_xpc_dictionary_get_uint64
+_xpc_dictionary_get_value
+_xpc_dictionary_set_bool
+_xpc_dictionary_set_connection
+_xpc_dictionary_set_data
+_xpc_dictionary_set_int64
+_xpc_dictionary_set_string
+_xpc_dictionary_set_uint64
+_xpc_dictionary_set_value
+_xpc_get_type
+_xpc_string_get_string_ptr
+_xpc_transaction_begin
+_xpc_transaction_end
+dyld_stub_binder

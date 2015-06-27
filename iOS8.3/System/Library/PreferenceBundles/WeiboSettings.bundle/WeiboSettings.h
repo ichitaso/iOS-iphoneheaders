@@ -1,0 +1,11 @@
+#import <WeiboSettings/WEPAccountEditController.h>
+#import <WeiboSettings/WEGenderListItemsController.h>
+#import <WeiboSettings/WEPAccountCreationController.h>
+#import <WeiboSettings/WEPAddressBookLookupOperation.h>
+#import <WeiboSettings/WEPContactUpdater.h>
+#import <WeiboSettings/WEPPhotoLookupOperation.h>
+#import <WeiboSettings/WEPSettingsController.h>
+#import <WeiboSettings/WEPUpdateContactsFooterView.h>
+#import <WeiboSettings/WECoreSig1Signer.h>
+#import <WeiboSettings/WEPSignInController.h>
+#import <WeiboSettings/SLSettingsController.h>

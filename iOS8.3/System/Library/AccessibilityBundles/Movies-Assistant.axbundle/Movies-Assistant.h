@@ -1,0 +1,15 @@
+#import <Movies-Assistant/__SiriMoviesChevronButtonAccessibility_super.h>
+#import <Movies-Assistant/SiriMoviesChevronButtonAccessibility.h>
+#import <Movies-Assistant/__SiriMoviesTheatersWithShowtimesListViewControllerAccessibility_super.h>
+#import <Movies-Assistant/SiriMoviesTheatersWithShowtimesListViewControllerAccessibility.h>
+#import <Movies-Assistant/__SiriMoviesMovieListCellViewAccessibility_super.h>
+#import <Movies-Assistant/SiriMoviesMovieListCellViewAccessibility.h>
+#import <Movies-Assistant/AXMoviesAssistantGlue.h>
+#import <Movies-Assistant/__SiriMoviesRottenTomatoesRatingViewAccessibility_super.h>
+#import <Movies-Assistant/SiriMoviesRottenTomatoesRatingViewAccessibility.h>
+#import <Movies-Assistant/__SiriMoviesBorderedLabelViewAccessibility_super.h>
+#import <Movies-Assistant/SiriMoviesBorderedLabelViewAccessibility.h>
+#import <Movies-Assistant/__SiriMoviesDetailViewAccessibility_super.h>
+#import <Movies-Assistant/SiriMoviesDetailViewAccessibility.h>
+#import <Movies-Assistant/__SiriMoviesMovieCreditsViewAccessibility_super.h>
+#import <Movies-Assistant/SiriMoviesMovieCreditsViewAccessibility.h>

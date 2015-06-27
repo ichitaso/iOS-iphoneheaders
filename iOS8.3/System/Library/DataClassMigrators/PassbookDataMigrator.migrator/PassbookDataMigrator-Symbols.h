@@ -1,0 +1,12 @@
+radr://5614542
+_OBJC_CLASS_$_PassbookDataMigrator
+_OBJC_METACLASS_$_PassbookDataMigrator
+_OBJC_CLASS_$_DataClassMigrator
+_OBJC_CLASS_$_PKPassLibrary
+_OBJC_CLASS_$_PKPaymentService
+_OBJC_METACLASS_$_DataClassMigrator
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

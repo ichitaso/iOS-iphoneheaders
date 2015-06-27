@@ -1,0 +1,782 @@
+/SourceCache/CFNetwork_AssetCacheLocatorService/CFNetwork-711.3.18/AssetCacheLocator/AssetCacheLocatorService/
+AssetCacheLocatorService.m
+/BinaryCache/CFNetwork_AssetCacheLocatorService/CFNetwork_AssetCacheLocatorService-711.3.18~2/Objects/CFNetwork.build/AssetCacheLocatorService.build/Objects-normal/armv7/AssetCacheLocatorService.o
+-[AssetCacheLocatorService init]
+___32-[AssetCacheLocatorService init]_block_invoke
+___32-[AssetCacheLocatorService init]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_193
+___destroy_helper_block_194
+-[AssetCacheLocatorService sandbox]
+-[AssetCacheLocatorService amRunningOnMyQueue]
+-[AssetCacheLocatorService amRunningInMySingleLocate:]
+-[AssetCacheLocatorService errorWithDomain:code:description:tag:]
+-[AssetCacheLocatorService start]
+___33-[AssetCacheLocatorService start]_block_invoke
+___copy_helper_block_248
+___destroy_helper_block_249
+___33-[AssetCacheLocatorService start]_block_invoke252
+___copy_helper_block_255
+___destroy_helper_block_256
+-[AssetCacheLocatorService handleConnection:]
+___45-[AssetCacheLocatorService handleConnection:]_block_invoke
+___copy_helper_block_269
+___destroy_helper_block_270
+-[AssetCacheLocatorService handleEvent:forConnection:]
+-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]
+___64-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]_block_invoke
+___copy_helper_block_306
+___destroy_helper_block_307
+-[AssetCacheLocatorService logLevelByName:]
+-[AssetCacheLocatorService logWithTag:level:format:]
+-[AssetCacheLocatorService makeSoftwareVersions]
+-[AssetCacheLocatorService networkChanged]
+___42-[AssetCacheLocatorService networkChanged]_block_invoke
+___copy_helper_block_408
+___destroy_helper_block_409
+-[AssetCacheLocatorService watchForNetworkChanges]
+_dynamicStoreChanged
+-[AssetCacheLocatorService isUsefulInaddr4:]
+-[AssetCacheLocatorService isUsefulInaddr6:]
+-[AssetCacheLocatorService isUsefulSockaddr4:]
+-[AssetCacheLocatorService isUsefulSockaddr6:]
+-[AssetCacheLocatorService stringFromInaddr4:]
+-[AssetCacheLocatorService stringFromInaddr6:]
+-[AssetCacheLocatorService stringFromMacAddr:]
+-[AssetCacheLocatorService identifierFromMacAddr:tag:]
+-[AssetCacheLocatorService stringFromSockaddr4:]
+-[AssetCacheLocatorService stringFromSockaddr6:]
+-[AssetCacheLocatorService stringFromSockaddrDL:]
+-[AssetCacheLocatorService stringFromSockaddrStorage:]
+-[AssetCacheLocatorService makeLocalAddresses:andGatewayIdentifiers:tag:]
+-[AssetCacheLocatorService safeString:length:forceHex:]
+-[AssetCacheLocatorService makeRangesFromDNSRecordNamed:withType:data:length:more:error:tag:]
+-[AssetCacheLocatorService resolveDNSPublicAddressRangesFromRecordNamed:errorIfNotFound:callback:callbackQueue:tag:]
+___116-[AssetCacheLocatorService resolveDNSPublicAddressRangesFromRecordNamed:errorIfNotFound:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_517
+___destroy_helper_block_518
+-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_539
+___destroy_helper_block_540
+___copy_helper_block_545
+___destroy_helper_block_546
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke566
+___copy_helper_block_567
+___destroy_helper_block_568
+-[AssetCacheLocatorService sanitizeRanges:fromSource:tag:]
+-[AssetCacheLocatorService makeBootTimeWithTag:]
+-[AssetCacheLocatorService loadDiskCacheWithTag:]
+-[AssetCacheLocatorService saveDiskCacheWithTag:]
+___49-[AssetCacheLocatorService saveDiskCacheWithTag:]_block_invoke
+___copy_helper_block_648
+___destroy_helper_block_649
+-[AssetCacheLocatorService updateDiskCacheRefreshTimerWithTag:]
+-[AssetCacheLocatorService cachedServersForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cacheServers:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService uncacheServersForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService anyCachedServersWithTag:]
+-[AssetCacheLocatorService uncacheAllServersWithTag:]
+-[AssetCacheLocatorService cachedDNSPublicAddressRangesForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cacheDNSPublicAddressRanges:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService uncacheDNSPublicAddressRangesForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService locateLocalhostCachingServerWithTimeout:callback:callbackQueue:tag:]
+___95-[AssetCacheLocatorService locateLocalhostCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_689
+___destroy_helper_block_690
+-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]
+___105-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_720
+___destroy_helper_block_721
+___105-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]_block_invoke755
+___copy_helper_block_756
+___destroy_helper_block_757
+-[AssetCacheLocatorService parseLocateResponse:intoServers:validityInterval:error:tag:]
+-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke_2
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke_3
+___copy_helper_block_809
+___destroy_helper_block_810
+___copy_helper_block_813
+___destroy_helper_block_814
+___copy_helper_block_819
+___destroy_helper_block_820
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke847
+___copy_helper_block_858
+___destroy_helper_block_859
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke864
+___copy_helper_block_873
+___destroy_helper_block_874
+-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_885
+___destroy_helper_block_886
+___copy_helper_block_889
+___destroy_helper_block_890
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke893
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke_2906
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke_3
+___copy_helper_block_921
+___destroy_helper_block_922
+___copy_helper_block_928
+___destroy_helper_block_929
+___copy_helper_block_933
+___destroy_helper_block_934
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke938
+___copy_helper_block_939
+___destroy_helper_block_940
+-[AssetCacheLocatorService connection:didFailWithError:]
+___56-[AssetCacheLocatorService connection:didFailWithError:]_block_invoke
+___56-[AssetCacheLocatorService connection:didFailWithError:]_block_invoke_2
+___copy_helper_block_950
+___destroy_helper_block_951
+___copy_helper_block_953
+___destroy_helper_block_954
+-[AssetCacheLocatorService connection:willSendRequestForAuthenticationChallenge:]
+-[AssetCacheLocatorService connection:didReceiveAuthenticationChallenge:]
+-[AssetCacheLocatorService connection:didReceiveData:]
+___54-[AssetCacheLocatorService connection:didReceiveData:]_block_invoke
+___copy_helper_block_1007
+___destroy_helper_block_1008
+-[AssetCacheLocatorService connection:didReceiveResponse:]
+___58-[AssetCacheLocatorService connection:didReceiveResponse:]_block_invoke
+___copy_helper_block_1015
+___destroy_helper_block_1016
+-[AssetCacheLocatorService connection:willCacheResponse:]
+-[AssetCacheLocatorService connectionDidFinishLoading:]
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke_2
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke_3
+___copy_helper_block_1036
+___destroy_helper_block_1037
+___copy_helper_block_1040
+___destroy_helper_block_1041
+___copy_helper_block_1043
+___destroy_helper_block_1044
+-[AssetCacheLocatorService logLevel]
+-[AssetCacheLocatorService setLogLevel:]
+-[AssetCacheLocatorService useAssetLocator]
+-[AssetCacheLocatorService setUseAssetLocator:]
+-[AssetCacheLocatorService concurrentDNSResolutions]
+-[AssetCacheLocatorService setConcurrentDNSResolutions:]
+-[AssetCacheLocatorService locateTimeout]
+-[AssetCacheLocatorService setLocateTimeout:]
+-[AssetCacheLocatorService dnsResolutionTimeout]
+-[AssetCacheLocatorService setDnsResolutionTimeout:]
+-[AssetCacheLocatorService locateURL]
+-[AssetCacheLocatorService setLocateURL:]
+-[AssetCacheLocatorService skipEVCheck]
+-[AssetCacheLocatorService setSkipEVCheck:]
+-[AssetCacheLocatorService userCachePath]
+-[AssetCacheLocatorService setUserCachePath:]
+-[AssetCacheLocatorService userTempPath]
+-[AssetCacheLocatorService setUserTempPath:]
+-[AssetCacheLocatorService cacheDirPath]
+-[AssetCacheLocatorService setCacheDirPath:]
+-[AssetCacheLocatorService diskCachePlistPath]
+-[AssetCacheLocatorService setDiskCachePlistPath:]
+-[AssetCacheLocatorService localhostAddresses]
+-[AssetCacheLocatorService setLocalhostAddresses:]
+-[AssetCacheLocatorService softwareVersions]
+-[AssetCacheLocatorService setSoftwareVersions:]
+-[AssetCacheLocatorService bootTime]
+-[AssetCacheLocatorService setBootTime:]
+-[AssetCacheLocatorService initialized]
+-[AssetCacheLocatorService setInitialized:]
+-[AssetCacheLocatorService queue]
+-[AssetCacheLocatorService setQueue:]
+-[AssetCacheLocatorService listenerConnection]
+-[AssetCacheLocatorService setListenerConnection:]
+-[AssetCacheLocatorService diskCache]
+-[AssetCacheLocatorService setDiskCache:]
+-[AssetCacheLocatorService diskCacheRefreshTimer]
+-[AssetCacheLocatorService setDiskCacheRefreshTimer:]
+-[AssetCacheLocatorService diskCacheRefreshTimerResumed]
+-[AssetCacheLocatorService setDiskCacheRefreshTimerResumed:]
+-[AssetCacheLocatorService singleLocate]
+-[AssetCacheLocatorService setSingleLocate:]
+-[AssetCacheLocatorService singleLocateTag]
+-[AssetCacheLocatorService setSingleLocateTag:]
+-[AssetCacheLocatorService locateOpQueue]
+-[AssetCacheLocatorService setLocateOpQueue:]
+-[AssetCacheLocatorService localAddresses]
+-[AssetCacheLocatorService setLocalAddresses:]
+-[AssetCacheLocatorService gatewayIdentifiers]
+-[AssetCacheLocatorService setGatewayIdentifiers:]
+-[AssetCacheLocatorService locateTag]
+-[AssetCacheLocatorService setLocateTag:]
+-[AssetCacheLocatorService locateCallback]
+-[AssetCacheLocatorService setLocateCallback:]
+-[AssetCacheLocatorService locateCallbackQueue]
+-[AssetCacheLocatorService setLocateCallbackQueue:]
+-[AssetCacheLocatorService locateConnection]
+-[AssetCacheLocatorService setLocateConnection:]
+-[AssetCacheLocatorService locateServerValidated]
+-[AssetCacheLocatorService setLocateServerValidated:]
+-[AssetCacheLocatorService locateResponseCode]
+-[AssetCacheLocatorService setLocateResponseCode:]
+-[AssetCacheLocatorService locateResponseData]
+-[AssetCacheLocatorService setLocateResponseData:]
+-[AssetCacheLocatorService .cxx_destruct]
+GCC_except_table55
+-[AssetCacheLocatorService makeLocalAddresses:andGatewayIdentifiers:tag:].nullmac
+_kacTXTRecordLabelMore
+_kacTXTRecordLabelPresentation
+_kacTXTRecordLabelNetwork
+___block_descriptor_tmp
+___block_descriptor_tmp195
+___block_descriptor_tmp251
+___block_descriptor_tmp257
+___block_descriptor_tmp271
+___block_descriptor_tmp309
+___block_descriptor_tmp410
+_rtax_names
+___block_descriptor_tmp519
+___block_descriptor_tmp542
+___block_descriptor_tmp547
+___block_descriptor_tmp569
+___block_descriptor_tmp650
+___block_descriptor_tmp691
+___block_descriptor_tmp723
+___block_descriptor_tmp758
+___block_descriptor_tmp812
+___block_descriptor_tmp816
+___block_descriptor_tmp822
+___block_descriptor_tmp861
+___block_descriptor_tmp875
+___block_descriptor_tmp888
+___block_descriptor_tmp892
+___block_descriptor_tmp923
+___block_descriptor_tmp930
+___block_descriptor_tmp935
+___block_descriptor_tmp941
+___block_descriptor_tmp952
+___block_descriptor_tmp955
+___block_descriptor_tmp1009
+___block_descriptor_tmp1017
+___block_descriptor_tmp1039
+___block_descriptor_tmp1042
+___block_descriptor_tmp1045
+_OBJC_IVAR_$_AssetCacheLocatorService._logLevel
+_OBJC_IVAR_$_AssetCacheLocatorService._useAssetLocator
+_OBJC_IVAR_$_AssetCacheLocatorService._concurrentDNSResolutions
+_OBJC_IVAR_$_AssetCacheLocatorService._locateTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._dnsResolutionTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._locateURL
+_OBJC_IVAR_$_AssetCacheLocatorService._skipEVCheck
+_OBJC_IVAR_$_AssetCacheLocatorService._userCachePath
+_OBJC_IVAR_$_AssetCacheLocatorService._userTempPath
+_OBJC_IVAR_$_AssetCacheLocatorService._cacheDirPath
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCachePlistPath
+_OBJC_IVAR_$_AssetCacheLocatorService._localhostAddresses
+_OBJC_IVAR_$_AssetCacheLocatorService._softwareVersions
+_OBJC_IVAR_$_AssetCacheLocatorService._bootTime
+_OBJC_IVAR_$_AssetCacheLocatorService._initialized
+_OBJC_IVAR_$_AssetCacheLocatorService._queue
+_OBJC_IVAR_$_AssetCacheLocatorService._listenerConnection
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCache
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheRefreshTimer
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheRefreshTimerResumed
+_OBJC_IVAR_$_AssetCacheLocatorService._singleLocate
+_OBJC_IVAR_$_AssetCacheLocatorService._singleLocateTag
+_OBJC_IVAR_$_AssetCacheLocatorService._locateOpQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._localAddresses
+_OBJC_IVAR_$_AssetCacheLocatorService._gatewayIdentifiers
+_OBJC_IVAR_$_AssetCacheLocatorService._locateTag
+_OBJC_IVAR_$_AssetCacheLocatorService._locateCallback
+_OBJC_IVAR_$_AssetCacheLocatorService._locateCallbackQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._locateConnection
+_OBJC_IVAR_$_AssetCacheLocatorService._locateServerValidated
+_OBJC_IVAR_$_AssetCacheLocatorService._locateResponseCode
+_OBJC_IVAR_$_AssetCacheLocatorService._locateResponseData
+_OBJC_CLASS_$_AssetCacheLocatorService
+_OBJC_METACLASS_$_AssetCacheLocatorService
+_kacQueueIdentityKey
+/SourceCache/CFNetwork_AssetCacheLocatorService/CFNetwork-711.3.18/AssetCacheLocator/AssetCacheLocatorService/
+main.m
+/BinaryCache/CFNetwork_AssetCacheLocatorService/CFNetwork_AssetCacheLocatorService-711.3.18~2/Objects/CFNetwork.build/AssetCacheLocatorService.build/Objects-normal/armv7/main.o
+_main
+-[AssetCacheLocatorService init]
+___32-[AssetCacheLocatorService init]_block_invoke
+___32-[AssetCacheLocatorService init]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_193
+___destroy_helper_block_194
+-[AssetCacheLocatorService sandbox]
+-[AssetCacheLocatorService amRunningOnMyQueue]
+-[AssetCacheLocatorService amRunningInMySingleLocate:]
+-[AssetCacheLocatorService errorWithDomain:code:description:tag:]
+-[AssetCacheLocatorService start]
+___33-[AssetCacheLocatorService start]_block_invoke
+___copy_helper_block_248
+___destroy_helper_block_249
+___33-[AssetCacheLocatorService start]_block_invoke252
+___copy_helper_block_255
+___destroy_helper_block_256
+-[AssetCacheLocatorService handleConnection:]
+___45-[AssetCacheLocatorService handleConnection:]_block_invoke
+___copy_helper_block_269
+___destroy_helper_block_270
+-[AssetCacheLocatorService handleEvent:forConnection:]
+-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]
+___64-[AssetCacheLocatorService handleLocateEvent:forConnection:tag:]_block_invoke
+___copy_helper_block_306
+___destroy_helper_block_307
+-[AssetCacheLocatorService logLevelByName:]
+-[AssetCacheLocatorService logWithTag:level:format:]
+-[AssetCacheLocatorService makeSoftwareVersions]
+-[AssetCacheLocatorService networkChanged]
+___42-[AssetCacheLocatorService networkChanged]_block_invoke
+___copy_helper_block_408
+___destroy_helper_block_409
+-[AssetCacheLocatorService watchForNetworkChanges]
+_dynamicStoreChanged
+-[AssetCacheLocatorService isUsefulInaddr4:]
+-[AssetCacheLocatorService isUsefulInaddr6:]
+-[AssetCacheLocatorService isUsefulSockaddr4:]
+-[AssetCacheLocatorService isUsefulSockaddr6:]
+-[AssetCacheLocatorService stringFromInaddr4:]
+-[AssetCacheLocatorService stringFromInaddr6:]
+-[AssetCacheLocatorService stringFromMacAddr:]
+-[AssetCacheLocatorService identifierFromMacAddr:tag:]
+-[AssetCacheLocatorService stringFromSockaddr4:]
+-[AssetCacheLocatorService stringFromSockaddr6:]
+-[AssetCacheLocatorService stringFromSockaddrDL:]
+-[AssetCacheLocatorService stringFromSockaddrStorage:]
+-[AssetCacheLocatorService makeLocalAddresses:andGatewayIdentifiers:tag:]
+-[AssetCacheLocatorService safeString:length:forceHex:]
+-[AssetCacheLocatorService makeRangesFromDNSRecordNamed:withType:data:length:more:error:tag:]
+-[AssetCacheLocatorService resolveDNSPublicAddressRangesFromRecordNamed:errorIfNotFound:callback:callbackQueue:tag:]
+___116-[AssetCacheLocatorService resolveDNSPublicAddressRangesFromRecordNamed:errorIfNotFound:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_517
+___destroy_helper_block_518
+-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_539
+___destroy_helper_block_540
+___copy_helper_block_545
+___destroy_helper_block_546
+___96-[AssetCacheLocatorService resolveDNSPublicAddressRangesWithTimeout:callback:callbackQueue:tag:]_block_invoke566
+___copy_helper_block_567
+___destroy_helper_block_568
+-[AssetCacheLocatorService sanitizeRanges:fromSource:tag:]
+-[AssetCacheLocatorService makeBootTimeWithTag:]
+-[AssetCacheLocatorService loadDiskCacheWithTag:]
+-[AssetCacheLocatorService saveDiskCacheWithTag:]
+___49-[AssetCacheLocatorService saveDiskCacheWithTag:]_block_invoke
+___copy_helper_block_648
+___destroy_helper_block_649
+-[AssetCacheLocatorService updateDiskCacheRefreshTimerWithTag:]
+-[AssetCacheLocatorService cachedServersForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cacheServers:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService uncacheServersForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService anyCachedServersWithTag:]
+-[AssetCacheLocatorService uncacheAllServersWithTag:]
+-[AssetCacheLocatorService cachedDNSPublicAddressRangesForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService cacheDNSPublicAddressRanges:forNetworkIdentifiers:validityInterval:tag:]
+-[AssetCacheLocatorService uncacheDNSPublicAddressRangesForNetworkIdentifiers:tag:]
+-[AssetCacheLocatorService locateLocalhostCachingServerWithTimeout:callback:callbackQueue:tag:]
+___95-[AssetCacheLocatorService locateLocalhostCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_689
+___destroy_helper_block_690
+-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]
+___105-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]_block_invoke
+___copy_helper_block_720
+___destroy_helper_block_721
+___105-[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:]_block_invoke755
+___copy_helper_block_756
+___destroy_helper_block_757
+-[AssetCacheLocatorService parseLocateResponse:intoServers:validityInterval:error:tag:]
+-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke_2
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke_3
+___copy_helper_block_809
+___destroy_helper_block_810
+___copy_helper_block_813
+___destroy_helper_block_814
+___copy_helper_block_819
+___destroy_helper_block_820
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke847
+___copy_helper_block_858
+___destroy_helper_block_859
+___148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke864
+___copy_helper_block_873
+___destroy_helper_block_874
+-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke_2
+___copy_helper_block_885
+___destroy_helper_block_886
+___copy_helper_block_889
+___destroy_helper_block_890
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke893
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke_2906
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke_3
+___copy_helper_block_921
+___destroy_helper_block_922
+___copy_helper_block_928
+___destroy_helper_block_929
+___copy_helper_block_933
+___destroy_helper_block_934
+___86-[AssetCacheLocatorService locateCachingServerWithTimeout:callback:callbackQueue:tag:]_block_invoke938
+___copy_helper_block_939
+___destroy_helper_block_940
+-[AssetCacheLocatorService connection:didFailWithError:]
+___56-[AssetCacheLocatorService connection:didFailWithError:]_block_invoke
+___56-[AssetCacheLocatorService connection:didFailWithError:]_block_invoke_2
+___copy_helper_block_950
+___destroy_helper_block_951
+___copy_helper_block_953
+___destroy_helper_block_954
+-[AssetCacheLocatorService connection:willSendRequestForAuthenticationChallenge:]
+-[AssetCacheLocatorService connection:didReceiveAuthenticationChallenge:]
+-[AssetCacheLocatorService connection:didReceiveData:]
+___54-[AssetCacheLocatorService connection:didReceiveData:]_block_invoke
+___copy_helper_block_1007
+___destroy_helper_block_1008
+-[AssetCacheLocatorService connection:didReceiveResponse:]
+___58-[AssetCacheLocatorService connection:didReceiveResponse:]_block_invoke
+___copy_helper_block_1015
+___destroy_helper_block_1016
+-[AssetCacheLocatorService connection:willCacheResponse:]
+-[AssetCacheLocatorService connectionDidFinishLoading:]
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke_2
+___55-[AssetCacheLocatorService connectionDidFinishLoading:]_block_invoke_3
+___copy_helper_block_1036
+___destroy_helper_block_1037
+___copy_helper_block_1040
+___destroy_helper_block_1041
+___copy_helper_block_1043
+___destroy_helper_block_1044
+-[AssetCacheLocatorService logLevel]
+-[AssetCacheLocatorService setLogLevel:]
+-[AssetCacheLocatorService useAssetLocator]
+-[AssetCacheLocatorService setUseAssetLocator:]
+-[AssetCacheLocatorService concurrentDNSResolutions]
+-[AssetCacheLocatorService setConcurrentDNSResolutions:]
+-[AssetCacheLocatorService locateTimeout]
+-[AssetCacheLocatorService setLocateTimeout:]
+-[AssetCacheLocatorService dnsResolutionTimeout]
+-[AssetCacheLocatorService setDnsResolutionTimeout:]
+-[AssetCacheLocatorService locateURL]
+-[AssetCacheLocatorService setLocateURL:]
+-[AssetCacheLocatorService skipEVCheck]
+-[AssetCacheLocatorService setSkipEVCheck:]
+-[AssetCacheLocatorService userCachePath]
+-[AssetCacheLocatorService setUserCachePath:]
+-[AssetCacheLocatorService userTempPath]
+-[AssetCacheLocatorService setUserTempPath:]
+-[AssetCacheLocatorService cacheDirPath]
+-[AssetCacheLocatorService setCacheDirPath:]
+-[AssetCacheLocatorService diskCachePlistPath]
+-[AssetCacheLocatorService setDiskCachePlistPath:]
+-[AssetCacheLocatorService localhostAddresses]
+-[AssetCacheLocatorService setLocalhostAddresses:]
+-[AssetCacheLocatorService softwareVersions]
+-[AssetCacheLocatorService setSoftwareVersions:]
+-[AssetCacheLocatorService bootTime]
+-[AssetCacheLocatorService setBootTime:]
+-[AssetCacheLocatorService initialized]
+-[AssetCacheLocatorService setInitialized:]
+-[AssetCacheLocatorService queue]
+-[AssetCacheLocatorService setQueue:]
+-[AssetCacheLocatorService listenerConnection]
+-[AssetCacheLocatorService setListenerConnection:]
+-[AssetCacheLocatorService diskCache]
+-[AssetCacheLocatorService setDiskCache:]
+-[AssetCacheLocatorService diskCacheRefreshTimer]
+-[AssetCacheLocatorService setDiskCacheRefreshTimer:]
+-[AssetCacheLocatorService diskCacheRefreshTimerResumed]
+-[AssetCacheLocatorService setDiskCacheRefreshTimerResumed:]
+-[AssetCacheLocatorService singleLocate]
+-[AssetCacheLocatorService setSingleLocate:]
+-[AssetCacheLocatorService singleLocateTag]
+-[AssetCacheLocatorService setSingleLocateTag:]
+-[AssetCacheLocatorService locateOpQueue]
+-[AssetCacheLocatorService setLocateOpQueue:]
+-[AssetCacheLocatorService localAddresses]
+-[AssetCacheLocatorService setLocalAddresses:]
+-[AssetCacheLocatorService gatewayIdentifiers]
+-[AssetCacheLocatorService setGatewayIdentifiers:]
+-[AssetCacheLocatorService locateTag]
+-[AssetCacheLocatorService setLocateTag:]
+-[AssetCacheLocatorService locateCallback]
+-[AssetCacheLocatorService setLocateCallback:]
+-[AssetCacheLocatorService locateCallbackQueue]
+-[AssetCacheLocatorService setLocateCallbackQueue:]
+-[AssetCacheLocatorService locateConnection]
+-[AssetCacheLocatorService setLocateConnection:]
+-[AssetCacheLocatorService locateServerValidated]
+-[AssetCacheLocatorService setLocateServerValidated:]
+-[AssetCacheLocatorService locateResponseCode]
+-[AssetCacheLocatorService setLocateResponseCode:]
+-[AssetCacheLocatorService locateResponseData]
+-[AssetCacheLocatorService setLocateResponseData:]
+-[AssetCacheLocatorService .cxx_destruct]
+_main
+_objc_release$shim
+_objc_retain$shim
+_objc_autoreleaseReturnValue$shim
+_objc_msgSend$shim
+__Block_object_assign$shim
+__Block_object_dispose$shim
+_objc_getProperty$shim
+_objc_setProperty_atomic$shim
+_objc_setProperty_atomic_copy$shim
+_objc_storeStrong$shim
+ stub helpers
+GCC_except_table55
+-[AssetCacheLocatorService makeLocalAddresses:andGatewayIdentifiers:tag:].nullmac
+_kacTXTRecordLabelMore
+_kacTXTRecordLabelPresentation
+_kacTXTRecordLabelNetwork
+___block_descriptor_tmp
+___block_descriptor_tmp195
+___block_descriptor_tmp251
+___block_descriptor_tmp257
+___block_descriptor_tmp271
+___block_descriptor_tmp309
+___block_descriptor_tmp410
+_rtax_names
+___block_descriptor_tmp519
+___block_descriptor_tmp542
+___block_descriptor_tmp547
+___block_descriptor_tmp569
+___block_descriptor_tmp650
+___block_descriptor_tmp691
+___block_descriptor_tmp723
+___block_descriptor_tmp758
+___block_descriptor_tmp812
+___block_descriptor_tmp816
+___block_descriptor_tmp822
+___block_descriptor_tmp861
+___block_descriptor_tmp875
+___block_descriptor_tmp888
+___block_descriptor_tmp892
+___block_descriptor_tmp923
+___block_descriptor_tmp930
+___block_descriptor_tmp935
+___block_descriptor_tmp941
+___block_descriptor_tmp952
+___block_descriptor_tmp955
+___block_descriptor_tmp1009
+___block_descriptor_tmp1017
+___block_descriptor_tmp1039
+___block_descriptor_tmp1042
+___block_descriptor_tmp1045
+_OBJC_IVAR_$_AssetCacheLocatorService._logLevel
+_OBJC_IVAR_$_AssetCacheLocatorService._useAssetLocator
+_OBJC_IVAR_$_AssetCacheLocatorService._concurrentDNSResolutions
+_OBJC_IVAR_$_AssetCacheLocatorService._locateTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._dnsResolutionTimeout
+_OBJC_IVAR_$_AssetCacheLocatorService._locateURL
+_OBJC_IVAR_$_AssetCacheLocatorService._skipEVCheck
+_OBJC_IVAR_$_AssetCacheLocatorService._userCachePath
+_OBJC_IVAR_$_AssetCacheLocatorService._userTempPath
+_OBJC_IVAR_$_AssetCacheLocatorService._cacheDirPath
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCachePlistPath
+_OBJC_IVAR_$_AssetCacheLocatorService._localhostAddresses
+_OBJC_IVAR_$_AssetCacheLocatorService._softwareVersions
+_OBJC_IVAR_$_AssetCacheLocatorService._bootTime
+_OBJC_IVAR_$_AssetCacheLocatorService._initialized
+_OBJC_IVAR_$_AssetCacheLocatorService._queue
+_OBJC_IVAR_$_AssetCacheLocatorService._listenerConnection
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCache
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheRefreshTimer
+_OBJC_IVAR_$_AssetCacheLocatorService._diskCacheRefreshTimerResumed
+_OBJC_IVAR_$_AssetCacheLocatorService._singleLocate
+_OBJC_IVAR_$_AssetCacheLocatorService._singleLocateTag
+_OBJC_IVAR_$_AssetCacheLocatorService._locateOpQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._localAddresses
+_OBJC_IVAR_$_AssetCacheLocatorService._gatewayIdentifiers
+_OBJC_IVAR_$_AssetCacheLocatorService._locateTag
+_OBJC_IVAR_$_AssetCacheLocatorService._locateCallback
+_OBJC_IVAR_$_AssetCacheLocatorService._locateCallbackQueue
+_OBJC_IVAR_$_AssetCacheLocatorService._locateConnection
+_OBJC_IVAR_$_AssetCacheLocatorService._locateServerValidated
+_OBJC_IVAR_$_AssetCacheLocatorService._locateResponseCode
+_OBJC_IVAR_$_AssetCacheLocatorService._locateResponseData
+_OBJC_CLASS_$_AssetCacheLocatorService
+_OBJC_METACLASS_$_AssetCacheLocatorService
+_kacQueueIdentityKey
+__mh_execute_header
+_CC_SHA256_Final
+_CC_SHA256_Init
+_CC_SHA256_Update
+_CFArrayAppendValue
+_CFArrayCreateMutable
+_CFCopyDescription
+_CFDictionaryGetValue
+_CFPreferencesCopyAppValue
+_CFPreferencesGetAppBooleanValue
+_CFRelease
+_CFRetain
+_CFRunLoopAddSource
+_CFRunLoopGetMain
+_NSFileModificationDate
+_NSFileProtectionCompleteUntilFirstUserAuthentication
+_NSFileProtectionKey
+_NSLocalizedDescriptionKey
+_NSLog
+_NSPOSIXErrorDomain
+_NSSearchPathForDirectoriesInDomains
+_NSURLAuthenticationMethodServerTrust
+_NSURLErrorDomain
+_NSURLIsExcludedFromBackupKey
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSHTTPURLResponse
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSMutableURLRequest
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSURLCache
+_OBJC_CLASS_$_NSURLConnection
+_OBJC_CLASS_$_NSURLCredential
+_OBJC_METACLASS_$_NSObject
+_SCDynamicStoreCreate
+_SCDynamicStoreCreateRunLoopSource
+_SCDynamicStoreKeyCreateNetworkGlobalEntity
+_SCDynamicStoreKeyCreateNetworkInterfaceEntity
+_SCDynamicStoreSetDispatchQueue
+_SCDynamicStoreSetNotificationKeys
+_SecTrustCopyResult
+_SecTrustEvaluate
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__Unwind_SjLj_Register
+__Unwind_SjLj_Resume
+__Unwind_SjLj_Unregister
+___CFConstantStringClassReference
+___assert_rtn
+___error
+___fixdfdi
+___memcpy_chk
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___strlcpy_chk
+__dispatch_source_type_timer
+__objc_empty_cache
+__xpc_error_connection_invalid
+__xpc_type_connection
+__xpc_type_dictionary
+__xpc_type_error
+_arc4random_uniform
+_confstr
+_dispatch_async
+_dispatch_get_current_queue
+_dispatch_get_global_queue
+_dispatch_get_specific
+_dispatch_group_create
+_dispatch_group_enter
+_dispatch_group_leave
+_dispatch_group_wait
+_dispatch_queue_create
+_dispatch_queue_get_label
+_dispatch_queue_set_specific
+_dispatch_resume
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_source_create
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_suspend
+_dispatch_time
+_exit
+_free
+_freeifaddrs
+_getifaddrs
+_gettimeofday
+_hstrerror
+_if_indextoname
+_inet_ntop
+_inet_pton
+_kCFBundleVersionKey
+_kCFRunLoopDefaultMode
+_kCFTypeArrayCallBacks
+_kSCCompAnyRegex
+_kSCDynamicStoreDomainState
+_kSCEntNetIPv4
+_kSCEntNetIPv6
+_kSecTrustExtendedValidation
+_kSecTrustOrganizationName
+_malloc
+_memcmp
+_memcpy
+_memset
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_copyStruct
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_setProperty_atomic_copy
+_objc_storeStrong
+_realloc
+_realpath$DARWIN_EXTSN
+_res_9_ndestroy
+_res_9_ninit
+_res_9_ns_initparse
+_res_9_ns_parserr
+_res_9_nsearch
+_sandbox_free_error
+_sandbox_init_with_parameters
+_strcasecmp
+_strchr
+_strcmp
+_strerror
+_strlen
+_strsep
+_sysctl
+_xpc_connection_cancel
+_xpc_connection_create_mach_service
+_xpc_connection_get_pid
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_set_event_handler
+_xpc_dictionary_create
+_xpc_dictionary_create_reply
+_xpc_dictionary_get_string
+_xpc_dictionary_get_uint64
+_xpc_dictionary_set_double
+_xpc_dictionary_set_int64
+_xpc_dictionary_set_string
+_xpc_dictionary_set_value
+_xpc_get_type
+_xpc_set_idle_handler
+_xpc_track_activity
+dyld_stub_binder

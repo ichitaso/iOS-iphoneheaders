@@ -1,0 +1,9 @@
+#import <ReportCrash/CrashReport.h>
+#import <ReportCrash/OSActivityInfo.h>
+#import <ReportCrash/BreadcrumbMessage.h>
+#import <ReportCrash/ActivityTraceMessage.h>
+#import <ReportCrash/CrashedThreadActivity.h>
+#import <ReportCrash/AppleErrorReport.h>
+#import <ReportCrash/JetsamReport.h>
+#import <ReportCrash/KTraceUtil.h>
+#import <ReportCrash/StackShotReport.h>
