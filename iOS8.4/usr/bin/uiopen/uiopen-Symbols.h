@@ -1,0 +1,17 @@
+radr://5614542
+_NXArgc
+_NXArgv
+___progname
+__mh_execute_header
+_environ
+_main
+start
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_UIApplication
+___stderrp
+_dlsym
+_exit
+_fprintf
+_objc_msgSend

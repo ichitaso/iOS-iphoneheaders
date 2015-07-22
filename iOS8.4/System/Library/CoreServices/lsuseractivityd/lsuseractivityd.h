@@ -1,0 +1,14 @@
+#import <lsuseractivityd/DebugLoggingConnector.h>
+#import <lsuseractivityd/_LSUserActivityWasContinuedInfo.h>
+#import <lsuseractivityd/LocalCornerActionItem.h>
+#import <lsuseractivityd/CornerActionManager.h>
+#import <lsuseractivityd/LSBestAppSuggestionClientProcess.h>
+#import <lsuseractivityd/UserActivityToBTLEPayload.h>
+#import <lsuseractivityd/CornerActionBTLEItem.h>
+#import <lsuseractivityd/CornerActionItem.h>
+#import <lsuseractivityd/UserActivityAdvertisableItem.h>
+#import <lsuseractivityd/AdvertisableItem.h>
+#import <lsuseractivityd/LSUserActivityClientProcessesController.h>
+#import <lsuseractivityd/LSUserActivityClientProcess.h>
+#import <lsuseractivityd/LSAuditToken.h>
+#import <lsuseractivityd/ActivityManagerDebuggingManager.h>

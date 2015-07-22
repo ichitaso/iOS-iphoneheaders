@@ -1,0 +1,9 @@
+#import <MobileMailSettings/AXMobileMailSettingsGlue.h>
+#import <MobileMailSettings/__SwipeOptionsControllerAccessibility_super.h>
+#import <MobileMailSettings/SwipeOptionsControllerAccessibility.h>
+#import <MobileMailSettings/__AccountLinkCellAccessibility_super.h>
+#import <MobileMailSettings/AccountLinkCellAccessibility.h>
+#import <MobileMailSettings/__AccountPSOutgoingDetailControllerAccessibility_super.h>
+#import <MobileMailSettings/AccountPSOutgoingDetailControllerAccessibility.h>
+#import <MobileMailSettings/__IndividualSwipeOptionControllerAccessibility_super.h>
+#import <MobileMailSettings/IndividualSwipeOptionControllerAccessibility.h>

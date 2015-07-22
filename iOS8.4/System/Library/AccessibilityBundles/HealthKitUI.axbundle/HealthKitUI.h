@@ -1,0 +1,11 @@
+#import <HealthKitUI/__HKMedicalIDEditorMultilineStringCellAccessibility_super.h>
+#import <HealthKitUI/HKMedicalIDEditorMultilineStringCellAccessibility.h>
+#import <HealthKitUI/___HKMedicalIDMultilineStringCellAccessibility_super.h>
+#import <HealthKitUI/_HKMedicalIDMultilineStringCellAccessibility.h>
+#import <HealthKitUI/__HKMedicalIDPersonSummaryCellAccessibility_super.h>
+#import <HealthKitUI/HKMedicalIDPersonSummaryCellAccessibility.h>
+#import <HealthKitUI/__HKSwitchTableViewCellAccessibility_super.h>
+#import <HealthKitUI/HKSwitchTableViewCellAccessibility.h>
+#import <HealthKitUI/AXHealthKitUIGlue.h>
+#import <HealthKitUI/__HKMedicalIDEditorNameAndPhotoCellAccessibility_super.h>
+#import <HealthKitUI/HKMedicalIDEditorNameAndPhotoCellAccessibility.h>

@@ -1,0 +1,13 @@
+#import <MapsSupport/MSPSerializer.h>
+#import <MapsSupport/MSPDroppedPin.h>
+#import <MapsSupport/MSPCompanionSyncedItem.h>
+#import <MapsSupport/MSPDirectionsSearch.h>
+#import <MapsSupport/MSPPinStorage.h>
+#import <MapsSupport/MSPPin.h>
+#import <MapsSupport/MSPRouteBookmark.h>
+#import <MapsSupport/MSPQuerySearch.h>
+#import <MapsSupport/MSPSearchRequestStorage.h>
+#import <MapsSupport/MSPSyncManager.h>
+#import <MapsSupport/MSPPlaceBookmark.h>
+#import <MapsSupport/MSPRegionBookmark.h>
+#import <MapsSupport/MSPBookmarkStorage.h>

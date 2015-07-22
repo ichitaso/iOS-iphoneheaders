@@ -1,0 +1,9 @@
+#import <BiometricKit/BiometricKitXPCClient.h>
+#import <BiometricKit/BiometricKitTemplateInfo.h>
+#import <BiometricKit/BiometricKitStatistics.h>
+#import <BiometricKit/BiometricKit.h>
+#import <BiometricKit/BiometricKitIdentity.h>
+#import <BiometricKit/BiometricKitMatchInfo.h>
+#import <BiometricKit/BiometricKitEnrollProgressInfo.h>
+#import <BiometricKit/BiometricKitEnrollProgressCoordinates.h>
+#import <BiometricKit/BiometricKitEnrollProgressMergedComponent.h>

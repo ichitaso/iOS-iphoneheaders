@@ -1,0 +1,11 @@
+radr://5614542
+_NXArgc
+_NXArgv
+___progname
+__mh_execute_header
+_environ
+_main
+start
+_exit
+_kCFCoreFoundationVersionNumber
+_printf

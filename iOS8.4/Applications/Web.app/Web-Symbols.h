@@ -1,0 +1,4 @@
+radr://5614542
+__mh_execute_header
+_WebAppMainEntry
+dyld_stub_binder

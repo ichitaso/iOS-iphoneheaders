@@ -1,0 +1,11 @@
+#import <ManagedConfigurationUI/AXManagedConfigurationUIGlue.h>
+#import <ManagedConfigurationUI/__MCDetailsHeaderCellAccessibility_super.h>
+#import <ManagedConfigurationUI/MCDetailsHeaderCellAccessibility.h>
+#import <ManagedConfigurationUI/__MCQuestionViewAccessibility_super.h>
+#import <ManagedConfigurationUI/MCQuestionViewAccessibility.h>
+#import <ManagedConfigurationUI/__MCDetailsDescriptionTableCellAccessibility_super.h>
+#import <ManagedConfigurationUI/MCDetailsDescriptionTableCellAccessibility.h>
+#import <ManagedConfigurationUI/__MCMoreDetailsCellAccessibility_super.h>
+#import <ManagedConfigurationUI/MCMoreDetailsCellAccessibility.h>
+#import <ManagedConfigurationUI/__MCMoreDetailsContentViewAccessibility_super.h>
+#import <ManagedConfigurationUI/MCMoreDetailsContentViewAccessibility.h>

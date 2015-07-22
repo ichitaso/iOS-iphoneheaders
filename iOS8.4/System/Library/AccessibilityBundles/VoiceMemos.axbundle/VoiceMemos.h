@@ -1,0 +1,16 @@
+#import <VoiceMemos/AXVoiceMemosGlue.h>
+#import <VoiceMemos/__UIVoiceMemosApplicationAccessibility_super.h>
+#import <VoiceMemos/UIVoiceMemosApplicationAccessibility.h>
+#import <VoiceMemos/__RCRecordingsTableViewAccessibility_super.h>
+#import <VoiceMemos/RCRecordingsTableViewAccessibility.h>
+#import <VoiceMemos/__RCRecordingCellActionsViewLayoutAccessibility_super.h>
+#import <VoiceMemos/RCRecordingCellActionsViewLayoutAccessibility.h>
+#import <VoiceMemos/__RCControlsViewAccessibility_super.h>
+#import <VoiceMemos/RCControlsViewAccessibility.h>
+#import <VoiceMemos/__VoiceMemosUIImageViewAccessibility_super.h>
+#import <VoiceMemos/VoiceMemosUIImageViewAccessibility.h>
+#import <VoiceMemos/RCUIAccessibilityMockSlider.h>
+#import <VoiceMemos/__RCVerticalEditMemoPresentationViewControllerAccessibility_super.h>
+#import <VoiceMemos/RCVerticalEditMemoPresentationViewControllerAccessibility.h>
+#import <VoiceMemos/__RCRecordingCellAccessibility_super.h>
+#import <VoiceMemos/RCRecordingCellAccessibility.h>

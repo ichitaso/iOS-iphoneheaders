@@ -1,0 +1,1 @@
+#import <FaceTimeAppleIDLoginPlugin/FTRegFaceTimeServiceDelegate.h>

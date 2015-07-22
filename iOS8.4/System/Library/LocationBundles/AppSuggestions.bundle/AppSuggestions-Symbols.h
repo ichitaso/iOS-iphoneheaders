@@ -1,0 +1,3 @@
+_AppSuggestionsVersionNumber
+_AppSuggestionsVersionString
+dyld_stub_binder

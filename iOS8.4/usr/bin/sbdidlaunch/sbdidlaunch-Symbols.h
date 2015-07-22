@@ -1,0 +1,17 @@
+radr://5614542
+_NXArgc
+_NXArgv
+__Z11OnDidLaunchP22__CFNotificationCenterPvPK10__CFStringPKvPK14__CFDictionary
+___progname
+__mh_execute_header
+_environ
+_main
+start
+_CFNotificationCenterAddObserver
+_CFNotificationCenterGetDarwinNotifyCenter
+_CFRunLoopGetCurrent
+_CFRunLoopRun
+_CFRunLoopStop
+_SBSSpringBoardServerPort
+___CFConstantStringClassReference
+_exit

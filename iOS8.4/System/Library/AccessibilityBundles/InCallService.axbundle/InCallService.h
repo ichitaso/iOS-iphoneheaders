@@ -1,0 +1,11 @@
+#import <InCallService/__InCallServiceApplicationAccessibility_super.h>
+#import <InCallService/InCallServiceApplicationAccessibility.h>
+#import <InCallService/__PHVideoCallViewControllerAccessibility_super.h>
+#import <InCallService/PHVideoCallViewControllerAccessibility.h>
+#import <InCallService/__PHAudioCallViewControllerAccessibility_super.h>
+#import <InCallService/PHAudioCallViewControllerAccessibility.h>
+#import <InCallService/__PHMobilePhoneRemoteViewControllerAccessibility_super.h>
+#import <InCallService/PHMobilePhoneRemoteViewControllerAccessibility.h>
+#import <InCallService/__PHVideoCallInterfaceOverlayViewAccessibility_super.h>
+#import <InCallService/PHVideoCallInterfaceOverlayViewAccessibility.h>
+#import <InCallService/AXInCallServiceGlue.h>

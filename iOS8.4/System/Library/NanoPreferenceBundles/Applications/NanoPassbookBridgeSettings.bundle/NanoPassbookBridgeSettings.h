@@ -1,0 +1,4 @@
+#import <NanoPassbookBridgeSettings/NPKPassbookBridgeSettingsController.h>
+#import <NanoPassbookBridgeSettings/NPKStockholmProvisioningController.h>
+#import <NanoPassbookBridgeSettings/NPKPassbookPaymentSetupDelegate.h>
+#import <NanoPassbookBridgeSettings/NPKPassColorProfile.h>

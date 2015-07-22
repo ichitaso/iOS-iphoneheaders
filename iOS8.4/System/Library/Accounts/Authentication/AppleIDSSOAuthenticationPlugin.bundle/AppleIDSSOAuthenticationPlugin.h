@@ -1,0 +1,1 @@
+#import <AppleIDSSOAuthenticationPlugin/AppleIDSSOAuthenticationPlugin.h>

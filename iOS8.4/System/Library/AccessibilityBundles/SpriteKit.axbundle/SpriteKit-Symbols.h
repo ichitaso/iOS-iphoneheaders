@@ -1,0 +1,103 @@
++[SKNodeAccessibility(SafeCategory) safeCategoryTargetClassName]
++[SKNodeAccessibility(SafeCategory) safeCategoryTargetClass]
++[SKNodeAccessibility _accessibilityPerformValidations:]
+-[SKNodeAccessibility _accessibilitySpriteKitChildrenNodes]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___59-[SKNodeAccessibility _accessibilitySpriteKitChildrenNodes]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SKNodeAccessibility _accessibilityConvertRect:toNode:]
+-[SKNodeAccessibility _accessibilityInvertedSpriteKitNodeFrame]
+-[SKNodeAccessibility accessibilityFrame]
+-[SKNodeAccessibility accessibilityContainer]
+-[SKNodeAccessibility accessibilityElementCount]
+-[SKNodeAccessibility accessibilityElementAtIndex:]
+-[SKNodeAccessibility indexOfAccessibilityElement:]
+-[NSArray(AXSpriteKitAdditions) accessibilityElementCount]
+-[NSArray(AXSpriteKitAdditions) accessibilityElementAtIndex:]
+-[NSArray(AXSpriteKitAdditions) indexOfAccessibilityElement:]
++[SKLabelNodeAccessibility(SafeCategory) safeCategoryTargetClassName]
++[SKLabelNodeAccessibility(SafeCategory) safeCategoryTargetClass]
++[SKLabelNodeAccessibility _accessibilityPerformValidations:]
+-[SKLabelNodeAccessibility isAccessibilityElement]
+-[SKLabelNodeAccessibility accessibilityLabel]
++[AXSpriteKitGlue accessibilityBundles]
++[AXSpriteKitGlue accessibilityInitializeBundle]
+___48+[AXSpriteKitGlue accessibilityInitializeBundle]_block_invoke
+___48+[AXSpriteKitGlue accessibilityInitializeBundle]_block_invoke_2
+___48+[AXSpriteKitGlue accessibilityInitializeBundle]_block_invoke_3
+-[NSObject(AXSpriteKitAdditions) accessibilitySpriteKitChildElements]
+-[NSObject(AXSpriteKitAdditions) setAccessibilitySpriteKitChildElements:]
+-[NSObject(AXSpriteKitAdditions) accessibilityMakeSpriteKitChildElementsIfNeeded]
++[SKViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++[SKViewAccessibility(SafeCategory) safeCategoryTargetClass]
++[SKViewAccessibility _accessibilityPerformValidations:]
+-[SKViewAccessibility _accessibilitySpriteKitScene]
+-[SKViewAccessibility accessibilityElementCount]
+-[SKViewAccessibility accessibilityElementAtIndex:]
+-[SKViewAccessibility indexOfAccessibilityElement:]
++[SKSceneAccessibility(SafeCategory) safeCategoryTargetClassName]
++[SKSceneAccessibility(SafeCategory) safeCategoryTargetClass]
++[SKSceneAccessibility _accessibilityPerformValidations:]
+-[SKSceneAccessibility accessibilityContainer]
+-[SKSceneAccessibility didMoveToView:]
+-[SKSceneAccessibility didChangeSize:]
+-[SKSceneAccessibility willMoveFromView:]
+GCC_except_table3
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp10
+___block_literal_global11
+___block_descriptor_tmp23
+___block_literal_global24
+__axChildElementsStorageKey
+_OBJC_CLASS_$_AXSpriteKitGlue
+_OBJC_CLASS_$_SKLabelNodeAccessibility
+_OBJC_CLASS_$_SKNodeAccessibility
+_OBJC_CLASS_$_SKSceneAccessibility
+_OBJC_CLASS_$_SKViewAccessibility
+_OBJC_CLASS_$___SKLabelNodeAccessibility_super
+_OBJC_CLASS_$___SKNodeAccessibility_super
+_OBJC_CLASS_$___SKSceneAccessibility_super
+_OBJC_CLASS_$___SKViewAccessibility_super
+_OBJC_METACLASS_$_AXSpriteKitGlue
+_OBJC_METACLASS_$_SKLabelNodeAccessibility
+_OBJC_METACLASS_$_SKNodeAccessibility
+_OBJC_METACLASS_$_SKSceneAccessibility
+_OBJC_METACLASS_$_SKViewAccessibility
+_OBJC_METACLASS_$___SKLabelNodeAccessibility_super
+_OBJC_METACLASS_$___SKNodeAccessibility_super
+_OBJC_METACLASS_$___SKSceneAccessibility_super
+_OBJC_METACLASS_$___SKViewAccessibility_super
+_UITextInputNextToUseInputModeDidChangeKey
+_UITextInputNextToUseInputModeDidChangeNotification
+__Failover
+_accessibilityLocalizedString
+_AXPerformSafeBlock
+_AXPerformValidationChecks
+_CGRectIsEmpty
+_OBJC_CLASS_$_AXValidationManager
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_UIAccessibilitySafeCategory
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_UIAccessibilitySafeCategory
+_UIAccessibilityConvertFrameToScreenCoordinates
+_UIAccessibilityLayoutChangedNotification
+_UIAccessibilityPostNotification
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+__objc_empty_cache
+_objc_getAssociatedObject
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setAssociatedObject
+dyld_stub_binder

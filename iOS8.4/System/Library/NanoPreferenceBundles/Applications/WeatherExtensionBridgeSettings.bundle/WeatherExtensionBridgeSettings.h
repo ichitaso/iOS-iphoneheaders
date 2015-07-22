@@ -1,0 +1,3 @@
+#import <WeatherExtensionBridgeSettings/WeatherPrefsMonitor.h>
+#import <WeatherExtensionBridgeSettings/BridgeSettingsCityChooserController.h>
+#import <WeatherExtensionBridgeSettings/WeatherCompanionBridgeSettingsController.h>

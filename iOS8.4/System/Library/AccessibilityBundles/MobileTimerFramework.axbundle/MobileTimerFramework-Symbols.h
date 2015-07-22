@@ -1,0 +1,12 @@
++[AXTimerFrameworkGlue accessibilityInitializeBundle]
+_OBJC_CLASS_$_AXTimerFrameworkGlue
+_OBJC_METACLASS_$_AXTimerFrameworkGlue
+_UITextInputNextToUseInputModeDidChangeKey
+_UITextInputNextToUseInputModeDidChangeNotification
+__Failover
+_OBJC_CLASS_$_NSObject
+_OBJC_METACLASS_$_NSObject
+__UIAXPerformValidationChecks
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder
